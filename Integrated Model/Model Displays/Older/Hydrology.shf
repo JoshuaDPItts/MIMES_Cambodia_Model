@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="124" y="34"  w="1388" h="934"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Hydro Indicators_Basin Scale">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="polygon375">
+              <![CDATA[/WIN/,max 15 /WIN/,xcoord {/Polygon Attributes/Vertices/X Choice} /WIN/,cbot #c0c0c0 /WIN/,scalex 143.95784376557717 /WIN/,scaley 120.45492461770806 /WIN/,imgs 0 /WIN/,editMode 0 /WIN/,range 15.0 /WIN/,nswatches 32 /WIN/,dataETs {} /WIN/,paintColour #00000000ffff /WIN/,stringInfo {} /WIN/,c10 #9898e847e847 /WIN/,c11 #9494ec3bec3b /WIN/,integer 0 /WIN/,c12 #9090f02ff02f /WIN/,c13 #8c8cf423f423 /WIN/,c14 #8888f817f817 /WIN/,sourcefile model /WIN/,state displaying /WIN/,c15 #8484fc0bfc0b /WIN/,c16 #8080ffffffff /WIN/,c17 #7878efffffff /WIN/,c18 #7070dfffffff /WIN/,c19 #6868cfffffff /WIN/,c20 #6060bfffffff /WIN/,allETs {{} {}} /WIN/,c21 #5858afffffff /WIN/,c22 #50509fffffff /WIN/,ycoord {/Polygon Attributes/Vertices/Y Choice} /WIN/,c23 #48488fffffff /WIN/,orient h /WIN/,c24 #40407fffffff /WIN/,cbord black /WIN/,c25 #38386fffffff /WIN/,c26 #30305fffffff /WIN/,c27 #28284fffffff /WIN/,c28 #20203fffffff /WIN/,ctop #0000ff /WIN/,c29 #18182fffffff /WIN/,c30 #10101fffffff /WIN/,color {/Polygon Attributes/Waterdepth} /WIN/,colourMapTweaked 0 /WIN/,c31 #08080fffffff /WIN/,c32 #00000000ffff /WIN/,bw 1 /WIN/,c0 #c0c0c0c0c0c0 /WIN/,c1 #bcbcc4b3c4b3 /WIN/,c2 #b8b8c8a7c8a7 /WIN/,cmid #80ffff /WIN/,c3 #b4b4cc9bcc9b /WIN/,datamin 0.05103372946382927 /WIN/,c4 #b0b0d08fd08f /WIN/,c5 #acacd483d483 /WIN/,datamax 16.149239400299535 /WIN/,c6 #a8a8d877d877 /WIN/,c7 #a4a4dc6bdc6b /WIN/,ETCount 0 /WIN/,c8 #a0a0e05fe05f /WIN/,c9 #9c9ce453e453 /WIN/,min 0.0 /WIN/,stringInfo {}]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="polygon375">
+              <![CDATA[/WIN/,imgs 0 /WIN/,datamin 0.0 /WIN/,colourMapTweaked 0 /WIN/,xcoord {/Polygon Attributes/Vertices/X Choice} /WIN/,datamax 1.0000000000638534 /WIN/,scalex 146.34729522775342 /WIN/,sourcefile model /WIN/,scaley 120.448892944601 /WIN/,ETCount 0 /WIN/,c10 #4848e847e847 /WIN/,c11 #3c3cec3bec3b /WIN/,range 1.0 /WIN/,c12 #3030f02ff02f /WIN/,c13 #2424f423f423 /WIN/,c14 #1818f817f817 /WIN/,c15 #0c0cfc0bfc0b /WIN/,c16 #0000ffffffff /WIN/,c17 #0000efffffff /WIN/,c18 #0000dfffffff /WIN/,c20 #0000bfffffff /WIN/,c19 #0000cfffffff /WIN/,c21 #0000afffffff /WIN/,c22 #00009fffffff /WIN/,c23 #00008fffffff /WIN/,c24 #00007fffffff /WIN/,bw 1 /WIN/,c25 #00006fffffff /WIN/,c26 #00005fffffff /WIN/,c0 #c0c0c0c0c0c0 /WIN/,c27 #00004fffffff /WIN/,c1 #b4b4c4b3c4b3 /WIN/,c28 #00003fffffff /WIN/,c2 #a8a8c8a7c8a7 /WIN/,c30 #00001fffffff /WIN/,c29 #00002fffffff /WIN/,c3 #9c9ccc9bcc9b /WIN/,c31 #00000fffffff /WIN/,c4 #9090d08fd08f /WIN/,c32 #00000000ffff /WIN/,c5 #8484d483d483 /WIN/,c6 #7878d877d877 /WIN/,state displaying /WIN/,c7 #6c6cdc6bdc6b /WIN/,c8 #6060e05fe05f /WIN/,editMode 0 /WIN/,c9 #5454e453e453 /WIN/,dataETs {} /WIN/,ctop #0000ff /WIN/,cbord black /WIN/,min 0.0 /WIN/,allETs {{} {}} /WIN/,cmid #00ffff /WIN/,integer 0 /WIN/,max 1 /WIN/,color {/Polygon Attributes/Area Flooded} /WIN/,nswatches 32 /WIN/,ycoord {/Polygon Attributes/Vertices/Y Choice} /WIN/,orient h /WIN/,cbot #c0c0c0 /WIN/,stringInfo {}]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="547" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,Ylabels {{Surface
+water, run 1}} /WIN/,redraw 0 /WIN/,Y_max_scalestep 0 /WIN/,yborder_top 40 /WIN/,yborder_bottom 40 /WIN/,Yvars {{/Time Series Outputs/Surface
+water}} /WIN/,xstep_Ylabels 122 /WIN/,highlittrace {} /WIN/,Xmin_axis 300.0 /WIN/,IdArrayElements false /WIN/,Ymin_axis 11.0 /WIN/,ywindow_size 0 /WIN/,Xmajorstep 100.0 /WIN/,AxisDivisions 10 /WIN/,fontValues {Helvetica 8 normal} /WIN/,pointer 1 /WIN/,stringInfo {} /WIN/,Tscale 0.8733624454148472 /WIN/,Ymajorstep 1.0 /WIN/,y_Xlabel 10 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Xminorstep 50.0 /WIN/,Xmax_axis 700.0 /WIN/,X_scalestep 0 /WIN/,x_Ylabels 25 /WIN/,xborder_right 15 /WIN/,Ymax_axis 17.0 /WIN/,y_Ylabels 0 /WIN/,FewXAxisTicks false /WIN/,Xmin_data 329 /WIN/,Ymin_data 11.981570323653234 /WIN/,Y_min_scalestep 0 /WIN/,canvas_colour #e0e0e0 /WIN/,x_Xlabel 100 /WIN/,Yscale 0.017045454545454544 /WIN/,Yminorstep 0.5 /WIN/,grapharea_colour white /WIN/,nodeCount 0 /WIN/,usedLegend 1 /WIN/,ystep_Ylabels 12 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,topright 1 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,ylength 352 /WIN/,Xprecision 1 /WIN/,DrawLegend 1 /WIN/,AutoAxisScaling 1 /WIN/,Xmax_data 658 /WIN/,Ymax_data 16.263265055997053 /WIN/,xwindow_size 0 /WIN/,Yprecision 2 /WIN/,grid on /WIN/,xborder_left 70 /WIN/,xlength 458]]>
+            </container>
+          </pane>
+          <pane>
+            <panedwindow orient="vertical">
+              <pane>
+              </pane>
+              <pane>
+                 <container type="plotter1_dot_25">
+                  <![CDATA[/WIN/,ylength 326 /WIN/,redraw 0 /WIN/,AxisDivisions 10 /WIN/,AutoAxisScaling 1 /WIN/,x_Xlabel 100 /WIN/,yborder_bottom 40 /WIN/,grapharea_colour white /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,fontTitle {Helvetica 8 normal} /WIN/,topright 1 /WIN/,xlength 467 /WIN/,Xmax_axis 700.0 /WIN/,x_Ylabels 25 /WIN/,xborder_right 15 /WIN/,Ymax_axis 11000.0 /WIN/,y_Ylabels 0 /WIN/,Ylabels {{Flooded Area, run 1}} /WIN/,FewXAxisTicks false /WIN/,Xmin_data 329 /WIN/,Xmajorstep 100.0 /WIN/,Ymin_data 3942.35751465279 /WIN/,fontValues {Helvetica 8 normal} /WIN/,canvas_colour #e0e0e0 /WIN/,Y_max_scalestep 0 /WIN/,yborder_top 40 /WIN/,xwindow_size 0 /WIN/,stringInfo {} /WIN/,Tscale 0.8565310492505354 /WIN/,grid on /WIN/,Ymajorstep 1000.0 /WIN/,nodeCount 0 /WIN/,ystep_Ylabels 12 /WIN/,xborder_left 70 /WIN/,IdArrayElements false /WIN/,Xminorstep 50.0 /WIN/,Xmax_data 658 /WIN/,Ymax_data 10015.285904771954 /WIN/,Yscale 24.539877300613497 /WIN/,pointer 1 /WIN/,Yminorstep 500.0 /WIN/,usedLegend 1 /WIN/,highlittrace {} /WIN/,fontLabels {Helvetica 8 normal} /WIN/,X_scalestep 0 /WIN/,ywindow_size 0 /WIN/,Xprecision 1 /WIN/,DrawLegend 1 /WIN/,Y_min_scalestep 0 /WIN/,Yprecision 2 /WIN/,Yvars {{/Flooded Area}} /WIN/,xstep_Ylabels 111 /WIN/,y_Xlabel 10 /WIN/,Xmin_axis 300.0 /WIN/,Ymin_axis 3000.0]]>
+                </container>
+              </pane>
+              <sash index="0" xposn="1" yposn="22"/>
+            </panedwindow>
+          </pane>
+          <sash index="0" xposn="546" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <sash index="0" xposn="1" yposn="406"/>
+    </panedwindow>
+  </page>
+  <page caption="Hydro Indictaors_Polygon Scale">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+            <panedwindow orient="vertical">
+              <pane>
+              </pane>
+              <pane>
+              </pane>
+              <sash index="0" xposn="1" yposn="236"/>
+            </panedwindow>
+          </pane>
+          <pane>
+          </pane>
+          <sash index="0" xposn="594" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <pane>
+         <container type="slide139">
+          <![CDATA[{/Slider Controls/Choose Polygon}]]>
+        </container>
+      </pane>
+      <sash index="0" xposn="1" yposn="442"/>
+      <pane>
+         <container type="TextView20140827">
+          <![CDATA[Show polygon label here
+
+]]>
+        </container>
+      </pane>
+      <sash index="1" xposn="1" yposn="631"/>
+    </panedwindow>
+  </page>
+  <page caption="Hydro Indicators_Permenant Lake">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="TextView20140827">
+              <![CDATA[Avg water rise rates in perm lake
+
+]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="TextView20140827">
+              <![CDATA[Avg water fall rates in perm lake
+
+]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="594" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="TextView20140827">
+              <![CDATA[Avg water level in dry seasno
+
+]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="TextView20140827">
+              <![CDATA[Avg water level in wet season
+
+]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="594" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <sash index="0" xposn="1" yposn="354"/>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="spf1.xsl"?>
+<spf simile_version="6.5">
+<submodel label="top">
+<variables>
+</variables>
+<submodels>
+<submodel label="Harmonics">
+ <variables>
+ <csv_columns label="P Cos" filename="../../../Data Input/2_Hydrology_Input Data/Hydro Submodel_Wave Harmonics.csv" data_column="Cosine">
+ <value index="1" val="Wave Harmonic ID"/>
+ </csv_columns>
+ <csv_columns label="P Sin" filename="../../../Data Input/2_Hydrology_Input Data/Hydro Submodel_Wave Harmonics.csv" data_column="Sine">
+ <value index="1" val="Wave Harmonic ID"/>
+ </csv_columns>
+ <csv_columns label="W" filename="../../../Data Input/2_Hydrology_Input Data/Hydro Submodel_Wave Harmonics.csv" data_column="Period">
+ <value index="1" val="Wave Harmonic ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+</submodels>
+</submodel>
+</spf>

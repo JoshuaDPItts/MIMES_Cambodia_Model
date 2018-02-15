@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="647" y="-3"  w="780" h="580"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Page 1">
+    <panedwindow orient="vertical">
+      <pane>
+         <container type="DataLogger20111205">
+          <![CDATA[<hsf simile_version="6.5" helper_id="::similescript::DataLogger20111205">
+<target_dir mode="absolute">C:/Users/Irit Altman/Dropbox/TonleSap Model/Tonle Sap MIMES Model/Submodels/4_Primary Production/MIDAS Output Log</target_dir>
+<to_separate_files whether="yes"/>
+<components>
+<component>/Catchments/Periphyton</component>
+<component>/Catchments/Phytoplanktton</component>
+<component>/Catchments/Rooted Macrophytes Grasslands</component>
+<component>/Catchments/Rooted Macrophytes Forest</component>
+<component>/Catchments/Rooted Macrophytes Aquatic Herbaceous</component>
+<component>/Catchments/Floating Macrophytes</component>
+<component>/Catchments/Detrtitus</component>
+</components>
+</hsf>
+]]>
+        </container>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Page 2">
+    <panedwindow orient="vertical">
+      <pane>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Page 3">
+    <panedwindow orient="vertical">
+      <pane>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Page 4">
+    <panedwindow orient="vertical">
+      <pane>
+      </pane>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="130" y="130"  w="780" h="580"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Page 1">
+    <panedwindow orient="vertical">
+      <pane>
+         <container type="DataLogger20111205">
+          <![CDATA[<hsf simile_version="6.5" helper_id="::similescript::DataLogger20111205">
+<target_dir mode="absolute">C:/Users/Irit Altman/Dropbox/TonleSap Model/Tonle Sap MIMES Model/Submodels/2_Hydrological Processes/MIDAS output log</target_dir>
+<to_separate_files whether="yes"/>
+<components>
+<component>/Polygon Attributes/Surface Water</component>
+<component>/Lake Pulse</component>
+<component>/Polygon Attributes/Rain</component>
+</components>
+</hsf>
+]]>
+        </container>
+      </pane>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>

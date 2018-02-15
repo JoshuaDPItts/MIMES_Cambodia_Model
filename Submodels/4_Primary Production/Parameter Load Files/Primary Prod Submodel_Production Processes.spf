@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="spf1.xsl"?>
+<spf simile_version="6.5">
+<submodel label="top">
+<variables>
+</variables>
+<submodels>
+<submodel label="line">
+ <variables>
+ <csv_columns label="X" filename="../../../Data Input/1_Spatial Attributes_Input Data/X.csv" data_column="X">
+ </csv_columns>
+ <csv_columns label="Y" filename="../../../Data Input/1_Spatial Attributes_Input Data/Y.csv" data_column="Y">
+ </csv_columns>
+ <csv_columns label="Shape" filename="../../../Data Input/1_Spatial Attributes_Input Data/Shape.csv" data_column="Polygon ID">
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="LandCover Attributes">
+ <variables>
+ <csv_columns label="Detrital resp rt" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_Detrital Resp Rate.csv" data_column="Detrital Resp Rate">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="Catchments">
+ <variables>
+ <csv_columns label="Area" filename="../../../Data Input/1_Spatial Attributes_Input Data/Catchment_Area.csv" data_column="Area km2">
+ <value index="1" val="Polygon ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="LandCover">
+  <variables>
+  <csv_columns label="LC R_IC" filename="../../../Data Input/4_Primary Production_Input Data/Primary Production Submodel_Landcover IC.csv" data_column="Landcover IC">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Landcover ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  <submodel label="Species LC needs">
+   <variables>
+   </variables>
+   <submodels>
+   </submodels>
+  </submodel>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="PP distributions for landcovers">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="Slider Controls">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="PP attributes">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+</submodels>
+</submodel>
+</spf>

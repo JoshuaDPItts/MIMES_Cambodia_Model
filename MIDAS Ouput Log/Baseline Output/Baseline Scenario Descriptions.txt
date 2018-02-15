@@ -1,0 +1,3 @@
+	Label	Description
+Baseline_1	Generic Simulated Flood Pulse	Derived from generic wave function 
+Baseline_2	Observed Flood Pulse	Derived from observed water levels at Kampoing Luong 

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="1735" y="59"  w="1107" h="862"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Page 1">
+    <panedwindow orient="vertical">
+      <pane>
+         <container type="polygon375">
+          <![CDATA[/WIN/,c9 #e453e4539c9c /WIN/,dataETs {} /WIN/,ctop #ff8000 /WIN/,cbord black /WIN/,min 0.0 /WIN/,allETs {{} {}} /WIN/,cmid #ffff80 /WIN/,integer 0 /WIN/,max 1500.0 /WIN/,color {/Polygon Attributes/Trophic Production/Adult Fish} /WIN/,nswatches 32 /WIN/,ycoord {/Polygon Attributes/Vertices/Y Choice} /WIN/,orient h /WIN/,cbot #c0c0c0 /WIN/,imgs 0 /WIN/,datamin 0.0 /WIN/,colourMapTweaked 0 /WIN/,xcoord {/Polygon Attributes/Vertices/X Choice} /WIN/,datamax 3037.937197292564 /WIN/,scalex 219.57065217391306 /WIN/,sourcefile model /WIN/,scaley 189.75074404761904 /WIN/,ETCount 0 /WIN/,c10 #e847e8479898 /WIN/,c11 #ec3bec3b9494 /WIN/,range 1500.0 /WIN/,c12 #f02ff02f9090 /WIN/,c13 #f423f4238c8c /WIN/,c14 #f817f8178888 /WIN/,c15 #fc0bfc0b8484 /WIN/,c16 #ffffffff8080 /WIN/,c17 #fffff8077878 /WIN/,c18 #fffff00f7070 /WIN/,c20 #ffffe01f6060 /WIN/,c19 #ffffe8176868 /WIN/,c21 #ffffd8275858 /WIN/,c22 #ffffd02f5050 /WIN/,c23 #ffffc8374848 /WIN/,c24 #ffffc03f4040 /WIN/,bw 1 /WIN/,c25 #ffffb8473838 /WIN/,c26 #ffffb04f3030 /WIN/,c0 #c0c0c0c0c0c0 /WIN/,c27 #ffffa8572828 /WIN/,c1 #c4b3c4b3bcbc /WIN/,c28 #ffffa05f2020 /WIN/,c2 #c8a7c8a7b8b8 /WIN/,c30 #ffff906f1010 /WIN/,c29 #ffff98671818 /WIN/,c3 #cc9bcc9bb4b4 /WIN/,c31 #ffff88770808 /WIN/,c4 #d08fd08fb0b0 /WIN/,c32 #ffff80800000 /WIN/,c5 #d483d483acac /WIN/,c6 #d877d877a8a8 /WIN/,state displaying /WIN/,c7 #dc6bdc6ba4a4 /WIN/,c8 #e05fe05fa0a0 /WIN/,editMode 0 /WIN/,stringInfo {}]]>
+        </container>
+      </pane>
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="slide139">
+              <![CDATA[{/Slider Controls/Choose fish}]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="tabular11510">
+              <![CDATA[{/Expectations/Distribution {/Expectations/Prefered location}} {none cols cols cols} {-1 {General 4 0} 0 {General 4 0} 1 {General 4 0}} 1]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="533" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <sash index="0" xposn="1" yposn="590"/>
+    </panedwindow>
+  </page>
+  <page caption="Page 2">
+    <panedwindow orient="vertical">
+      <pane>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Page 3">
+    <panedwindow orient="vertical">
+      <pane>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Page 4">
+    <panedwindow orient="vertical">
+      <pane>
+      </pane>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>

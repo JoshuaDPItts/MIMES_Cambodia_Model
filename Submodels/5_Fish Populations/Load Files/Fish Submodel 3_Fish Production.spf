@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="spf1.xsl"?>
+<spf simile_version="6.5">
+<submodel label="top">
+<variables>
+<csv_columns label="connect to" filename="../../../Data Input/2_Hydrology_Input Data/Top Level_Connect to.csv" data_column="Polygon_there">
+<value index="1" val="Polygon_here"/>
+<value index="2" val="Connection"/>
+</csv_columns>
+<csv_columns label="Lake Pulse" filename="../../../Data Input/2_Hydrology_Input Data/Lake Pulse.csv" data_column="Kampong Luong WL (Spline Predictor Method)">
+<value index="1" val=",others:use_last"/>
+</csv_columns>
+</variables>
+<submodels>
+<submodel label="line">
+ <variables>
+ <csv_columns label="Shape" filename="../../../Data Input/1_Spatial Attributes_Input Data/Shape.csv" data_column="Polygon ID">
+ </csv_columns>
+ <csv_columns label="X" filename="../../../Data Input/1_Spatial Attributes_Input Data/X.csv" data_column="X">
+ </csv_columns>
+ <csv_columns label="Y" filename="../../../Data Input/1_Spatial Attributes_Input Data/Y.csv" data_column="Y">
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="Fish Attributes">
+ <variables>
+ <csv_columns label="Oxygen Adaptation" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Oxygen Adaptation.csv" data_column="Low Oxygen Adapted">
+ </csv_columns>
+ <csv_columns label="Outside Pop Estimate" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Outside population.csv" data_column="Outside Pop">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Dependant on&#10;dry season holes" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Dependent on dry season holes - Copy.csv" data_column="Deep Hole Dependence">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Juv Mortality rt" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Mortality rate.csv" data_column="J_MM/20">
+ </csv_columns>
+ <csv_columns label="Travel&#10;Speed" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Travel speed.csv" data_column="Travel Speed">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Eats offshore" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Eats offshore.csv" data_column="Floodplain Feeder Proportion">
+ </csv_columns>
+ <csv_columns label="Height in water collumn" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Height in water column.csv" data_column="Water Column">
+ </csv_columns>
+ <csv_columns label="Upstream Spawing&#10;Habitat" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Upstream Spawning Habitat.csv" data_column="Guess">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Habitat CC" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Habityat Carrying Capacity.csv" data_column="CC5x">
+ </csv_columns>
+ <csv_columns label="A mortality&#10;rt" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Adult mortality.csv" data_column="Adult Mortality Rate">
+ </csv_columns>
+ <csv_columns label="Dispersal Timing" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Dispersal timing.csv" data_column="Travel Speed">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Fecundity rt" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Fecundity rate.csv" data_column="Fecundity">
+ </csv_columns>
+ <csv_columns label="Aging rate" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Aging rate.csv" data_column="Maturity Rate">
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="Pressure">
+  <variables>
+  <csv_columns label="Gear type efficiency" filename="../../../Data Input/5_Fish Production_Input Data/Fish Pressure_Gear Efficiencies.csv" data_column="Gear Capture Efficiency">
+  <value index="1" val="Functional Group ID"/>
+  <value index="2" val="Gear ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ <submodel label="Diet">
+  <variables>
+  <csv_columns label="needs" filename="../../../Data Input/5_Fish Production_Input Data/Fish Diet_Needs.csv" data_column="Food Source Relevance">
+  <value index="1" val="Functional Group ID"/>
+  <value index="2" val="Food Source ID"/>
+  </csv_columns>
+  <csv_columns label="Throphic efficiency" filename="../../../Data Input/5_Fish Production_Input Data/Fish Diet_Trophic Efficience.csv" data_column="Trophic Efficiency">
+  <value index="1" val="Functional Group ID"/>
+  <value index="2" val="Food Source ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Catchments">
+ <variables>
+ <csv_columns label="Surface Water" filename="../Module specific Input files/TimeSeries.csv" data_column="SurfaceWater">
+ <value index="1" val=",others:use_last"/>
+ <value index="2" val="Time"/>
+ <value index="3" val="Polygon_ID"/>
+ </csv_columns>
+ <csv_columns label="Flooding" filename="../Module specific Input files/TimeSeries.csv" data_column="Flooding">
+ <value index="1" val=",others:use_last"/>
+ <value index="2" val="Time"/>
+ <value index="3" val="Polygon_ID"/>
+ </csv_columns>
+ <csv_columns label="DO" filename="../Module specific Input files/TimeSeries.csv" data_column="DO">
+ <value index="1" val=",others:use_last"/>
+ <value index="2" val="Time"/>
+ <value index="3" val="Polygon_ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="Food Sources">
+  <variables>
+  <csv_columns label="Biomass" filename="../Module specific Input files/FoodBM.csv" data_column="FoodBiomass">
+  <value index="1" val=",others:use_last"/>
+  <value index="2" val="Time"/>
+  <value index="3" val="Poly_ID"/>
+  <value index="4" val="Food_ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ <submodel label="Fishin regulations">
+  <variables>
+  <csv_columns label="Compliance" filename="../../../Data Input/5_Fish Production_Input Data/Fishing Regulations_Compliance.csv" data_column="Compliance">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Gear ID"/>
+  </csv_columns>
+  <csv_columns label="Gear type distribution" filename="../../../Data Input/5_Fish Production_Input Data/Fishing Regulations_Gear type distribution.csv" data_column="Distribution">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Gear ID"/>
+  </csv_columns>
+  <csv_columns label="Regulated Use" filename="../../../Data Input/5_Fish Production_Input Data/Fishing Regulations_Regulated Use.csv" data_column="Regulated Use">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Gear ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ <submodel label="Fish">
+  <variables>
+  <csv_columns label="Adults" filename="../../../Data Input/5_Fish Production_Input Data/Fish_Adults.csv" data_column="Initial Biomass">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Functional Group ID"/>
+  </csv_columns>
+  <csv_columns label="Spawning&#10;Habitat" filename="../../../Data Input/5_Fish Production_Input Data/Fish_Spawning Habitat.csv" data_column="Spawning Habitat">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Functional Group ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Slider Controls">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+</submodels>
+</submodel>
+</spf>

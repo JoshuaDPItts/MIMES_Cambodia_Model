@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="-8" y="-8"  w="1600" h="817"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Page 1">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+            <panedwindow orient="vertical">
+              <pane>
+                 <container type="polygon375">
+                  <![CDATA[/WIN/,datamin 0.0 /WIN/,colourMapTweaked 0 /WIN/,xcoord {/Polygon Attributes/Vertices/X Choice} /WIN/,datamax 10.653196508706829 /WIN/,scalex 168.6448063380282 /WIN/,sourcefile model /WIN/,scaley 192.56268221574345 /WIN/,ETCount 0 /WIN/,c10 #4848e8474848 /WIN/,c11 #3c3cec3b3c3c /WIN/,range 400.0 /WIN/,c12 #3030f02f3030 /WIN/,c13 #2424f4232424 /WIN/,c14 #1818f8171818 /WIN/,c15 #0c0cfc0b0c0c /WIN/,c16 #0000ffff0000 /WIN/,c17 #0ffff8070000 /WIN/,c18 #1ffff00f0000 /WIN/,c20 #3fffe01f0000 /WIN/,c19 #2fffe8170000 /WIN/,c21 #4fffd8270000 /WIN/,c22 #5fffd02f0000 /WIN/,c23 #6fffc8370000 /WIN/,bw 1 /WIN/,c24 #7fffc03f0000 /WIN/,c25 #8fffb8470000 /WIN/,c0 #c0c0c0c0c0c0 /WIN/,c26 #9fffb04f0000 /WIN/,c1 #b4b4c4b3b4b4 /WIN/,c27 #afffa8570000 /WIN/,c2 #a8a8c8a7a8a8 /WIN/,c28 #bfffa05f0000 /WIN/,c3 #9c9ccc9b9c9c /WIN/,c29 #cfff98670000 /WIN/,c30 #dfff906f0000 /WIN/,c4 #9090d08f9090 /WIN/,c31 #efff88770000 /WIN/,c5 #8484d4838484 /WIN/,c32 #ffff80800000 /WIN/,c6 #7878d8777878 /WIN/,state displaying /WIN/,c7 #6c6cdc6b6c6c /WIN/,c8 #6060e05f6060 /WIN/,editMode 0 /WIN/,c9 #5454e4535454 /WIN/,dataETs {} /WIN/,ctop #ff8000 /WIN/,cbord black /WIN/,min 0.0 /WIN/,allETs {{} {}} /WIN/,cmid green /WIN/,integer 0 /WIN/,max 400.0 /WIN/,color {/Polygon Attributes/Trophic Production/Adult Fish} /WIN/,ycoord {/Polygon Attributes/Vertices/Y Choice} /WIN/,nswatches 32 /WIN/,orient h /WIN/,cbot #c0c0c0 /WIN/,imgs 0 /WIN/,stringInfo {} /WIN/,stringInfo {}]]>
+                </container>
+              </pane>
+              <pane>
+                 <container type="slide139">
+                  <![CDATA[{/Slider Controls/Choose fish} {/Slider Controls/Choose Polygon}]]>
+                </container>
+              </pane>
+              <sash index="0" xposn="1" yposn="482"/>
+            </panedwindow>
+          </pane>
+          <pane>
+            <panedwindow orient="vertical">
+              <pane>
+                 <container type="plotter1_dot_25">
+                  <![CDATA[/WIN/,nodeCount 0 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,IdArrayElements false /WIN/,ystep_Ylabels 12 /WIN/,xwindow_size 0 /WIN/,ylength 148 /WIN/,stringInfo {} /WIN/,y_Ylabels 0 /WIN/,Xmin_data 0 /WIN/,topright 1 /WIN/,Xminorstep 500.0 /WIN/,ywindow_size 0 /WIN/,Yvars {{/Time Series Outputs/Fish Variables/Adults} {/Time Series Outputs/Fish Variables/Carrying
+capacity}} /WIN/,xstep_Ylabels 77 /WIN/,xlength 582 /WIN/,yborder_bottom 40 /WIN/,Xmax_data 3650 /WIN/,xborder_right 15 /WIN/,Yprecision 1 /WIN/,y_Xlabel 10 /WIN/,xborder_left 70 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymin_data 5.0 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,redraw 0 /WIN/,Yminorstep 5.0 /WIN/,X_scalestep 0 /WIN/,Ylabels {{Adults, run 1} {Carrying
+capacity, run 1}} /WIN/,AxisDivisions 10 /WIN/,Ymax_data 49.875 /WIN/,Y_max_scalestep 0 /WIN/,DrawLegend 1 /WIN/,Tscale 6.8728522336769755 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,Xmin_axis 0.0 /WIN/,Y_min_scalestep 0 /WIN/,Xmajorstep 1000.0 /WIN/,Xmax_axis 4000.0 /WIN/,grapharea_colour white /WIN/,AutoAxisScaling 1 /WIN/,highlittrace {} /WIN/,usedLegend 1 /WIN/,pointer 1 /WIN/,Yscale 0.33783783783783783 /WIN/,Ymin_axis 0.0 /WIN/,grid on /WIN/,yborder_top 40 /WIN/,x_Xlabel 100 /WIN/,fontValues {Helvetica 8 normal} /WIN/,x_Ylabels 25 /WIN/,Ymax_axis 50.0 /WIN/,Ymajorstep 10.0]]>
+                </container>
+              </pane>
+              <pane>
+                 <container type="plotter1_dot_25">
+                  <![CDATA[/WIN/,xstep_Ylabels 109 /WIN/,Ymin_axis 0.0 /WIN/,ylength 172 /WIN/,redraw 0 /WIN/,yborder_bottom 40 /WIN/,xlength 582 /WIN/,Ymax_axis 1.0000000000000011e-10 /WIN/,xborder_right 15 /WIN/,x_Ylabels 25 /WIN/,fontValues {Helvetica 8 normal} /WIN/,xwindow_size 0 /WIN/,Tscale 6.8728522336769755 /WIN/,Ymajorstep 2.000000000000002e-11 /WIN/,nodeCount 0 /WIN/,IdArrayElements false /WIN/,fontLabels {Helvetica 8 normal} /WIN/,ywindow_size 0 /WIN/,Xprecision 1 /WIN/,AxisDivisions 10 /WIN/,x_Xlabel 100 /WIN/,grapharea_colour white /WIN/,Ylabels {{Fish Mortality, run 1}} /WIN/,y_Ylabels 0 /WIN/,Xmin_data 0 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,yborder_top 40 /WIN/,stringInfo {} /WIN/,xborder_left 70 /WIN/,Xminorstep 500.0 /WIN/,Xmax_data 3650 /WIN/,Yscale 5.813953488372099e-13 /WIN/,Yprecision 2 /WIN/,topright 1 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymin_data 0.0 /WIN/,Y_max_scalestep 0 /WIN/,grid on /WIN/,Ymax_data 0.0 /WIN/,pointer 1 /WIN/,Yminorstep 1.000000000000001e-11 /WIN/,highlittrace {} /WIN/,DrawLegend 1 /WIN/,Y_min_scalestep 0 /WIN/,Yvars {{/Time Series Outputs/Fish Variables/Fish Mortality}} /WIN/,Xmin_axis 0.0 /WIN/,y_Xlabel 10 /WIN/,AutoAxisScaling 1 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,Xmax_axis 4000.0 /WIN/,Xmajorstep 1000.0 /WIN/,ystep_Ylabels 12 /WIN/,usedLegend 1 /WIN/,X_scalestep 0]]>
+                </container>
+              </pane>
+              <sash index="0" xposn="1" yposn="275"/>
+              <pane>
+                 <container type="plotter1_dot_25">
+                  <![CDATA[/WIN/,Xmajorstep 1 /WIN/,AxisDivisions 10 /WIN/,xwindow_size 0 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,y_Xlabel 10 /WIN/,usedLegend 0 /WIN/,Ymin_axis 1e100 /WIN/,Ylabels {} /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,ywindow_size 0 /WIN/,IdArrayElements false /WIN/,Ymax_axis -1e100 /WIN/,x_Ylabels 25 /WIN/,Yvars {} /WIN/,nodeCount 0 /WIN/,fontValues {Helvetica 8 normal} /WIN/,Ymajorstep 2 /WIN/,grid on /WIN/,xborder_left 70 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 0 /WIN/,X_scalestep 0 /WIN/,y_Ylabels 0 /WIN/,Xmin_data 1e20 /WIN/,pointer 1 /WIN/,stringInfo {} /WIN/,Xmax_data -1e20 /WIN/,Xminorstep 0.5 /WIN/,redraw 0 /WIN/,x_Xlabel 100 /WIN/,ystep_Ylabels 12 /WIN/,Tscale -3.436426116838488e+97 /WIN/,Yprecision 0 /WIN/,highlittrace {} /WIN/,Y_max_scalestep 0 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymin_data 1e100 /WIN/,xstep_Ylabels 21 /WIN/,Y_min_scalestep 0 /WIN/,Ymax_data -1e100 /WIN/,yborder_top 40 /WIN/,Yminorstep 0.5 /WIN/,ylength 40 /WIN/,xborder_right 15 /WIN/,yborder_bottom 40 /WIN/,AutoAxisScaling 1 /WIN/,DrawLegend 1 /WIN/,Xmin_axis 1e100 /WIN/,xlength 582 /WIN/,grapharea_colour white /WIN/,topright 1 /WIN/,Yscale -5e+98 /WIN/,Xmax_axis -1e100]]>
+                </container>
+              </pane>
+              <sash index="1" xposn="1" yposn="577"/>
+            </panedwindow>
+          </pane>
+          <sash index="0" xposn="643" yposn="1"/>
+        </panedwindow>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Page 2">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,Yprecision 2 /WIN/,pointer 1 /WIN/,Ymin_axis 0.0 /WIN/,y_Xlabel 10 /WIN/,xborder_left 70 /WIN/,yborder_top 40 /WIN/,x_Ylabels 25 /WIN/,Ymax_axis 1800.0 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,redraw 0 /WIN/,nodeCount 0 /WIN/,Yminorstep 100.0 /WIN/,DrawLegend 1 /WIN/,IdArrayElements false /WIN/,Tscale 9.433962264150944 /WIN/,ystep_Ylabels 12 /WIN/,Xmajorstep 1000.0 /WIN/,ylength 642 /WIN/,y_Ylabels 0 /WIN/,Xmin_data 0 /WIN/,grapharea_colour white /WIN/,highlittrace {} /WIN/,Yvars /Adults /WIN/,xstep_Ylabels 77 /WIN/,xlength 424 /WIN/,Xmax_data 3650 /WIN/,usedLegend 1 /WIN/,xborder_right 15 /WIN/,Yscale 2.803738317757009 /WIN/,grid on /WIN/,fontValues {Helvetica 8 normal} /WIN/,x_Xlabel 100 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymajorstep 200.0 /WIN/,Ymin_data 98.79808412962399 /WIN/,X_scalestep 0 /WIN/,Ylabels {{Adults, run 1}} /WIN/,AxisDivisions 10 /WIN/,Ymax_data 1601.0134253822555 /WIN/,Y_max_scalestep 0 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,Xmin_axis 0.0 /WIN/,xwindow_size 0 /WIN/,Y_min_scalestep 0 /WIN/,Xmax_axis 4000.0 /WIN/,stringInfo {} /WIN/,AutoAxisScaling 1 /WIN/,topright 1 /WIN/,Xminorstep 500.0 /WIN/,ywindow_size 0 /WIN/,yborder_bottom 40]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,grapharea_colour white /WIN/,Xmax_axis 4000.0 /WIN/,stringInfo {} /WIN/,ystep_Ylabels 12 /WIN/,xborder_left 70 /WIN/,Xminorstep 500.0 /WIN/,Yscale 3894.0809968847343 /WIN/,X_scalestep 0 /WIN/,Yprecision 2 /WIN/,xstep_Ylabels 91 /WIN/,Ymin_axis 0.0 /WIN/,ylength 642 /WIN/,topright 1 /WIN/,xlength 715 /WIN/,x_Ylabels 25 /WIN/,xborder_right 15 /WIN/,Ymax_axis 2499999.9999999995 /WIN/,grid on /WIN/,nodeCount 0 /WIN/,IdArrayElements false /WIN/,Yminorstep 249999.99999999997 /WIN/,highlittrace {} /WIN/,DrawLegend 1 /WIN/,y_Xlabel 10 /WIN/,AxisDivisions 10 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,y_Ylabels 0 /WIN/,Ylabels {{Juveniles, run 1}} /WIN/,FewXAxisTicks false /WIN/,Xmin_data 0 /WIN/,Xmajorstep 1000.0 /WIN/,canvas_colour #e0e0e0 /WIN/,yborder_top 40 /WIN/,Xmax_data 3650 /WIN/,usedLegend 1 /WIN/,redraw 0 /WIN/,yborder_bottom 40 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymin_data 12837.932550999998 /WIN/,fontValues {Helvetica 8 normal} /WIN/,Y_max_scalestep 0 /WIN/,xwindow_size 0 /WIN/,Tscale 5.594405594405594 /WIN/,Ymajorstep 499999.99999999994 /WIN/,Ymax_data 2010738.318930503 /WIN/,pointer 1 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,ywindow_size 0 /WIN/,Xprecision 1 /WIN/,Y_min_scalestep 0 /WIN/,Yvars /Juveniles /WIN/,Xmin_axis 0.0 /WIN/,AutoAxisScaling 1 /WIN/,x_Xlabel 100]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="512" yposn="1"/>
+        </panedwindow>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Page 3">
+    <panedwindow orient="vertical">
+      <pane>
+         <container type="plotter1_dot_25">
+          <![CDATA[/WIN/,usedLegend 0 /WIN/,redraw 0 /WIN/,yborder_bottom 40 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymin_data 9.379999999999999 /WIN/,fontValues {Helvetica 8 normal} /WIN/,Y_max_scalestep 0 /WIN/,xwindow_size 0 /WIN/,Tscale 4.061738424045491 /WIN/,Ymajorstep 0.0005000000000000002 /WIN/,Ymax_data 9.379999999999999 /WIN/,pointer 1 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,ywindow_size 0 /WIN/,Xprecision 1 /WIN/,Y_min_scalestep 0 /WIN/,Yvars {{/Lake Pulse}} /WIN/,Xmin_axis 3000.0 /WIN/,AutoAxisScaling 1 /WIN/,x_Xlabel 100 /WIN/,grapharea_colour white /WIN/,Xmax_axis 8000.0 /WIN/,stringInfo {} /WIN/,ystep_Ylabels 12 /WIN/,xborder_left 70 /WIN/,Xminorstep 1000.0 /WIN/,Yscale 3.1055900621128385e-6 /WIN/,X_scalestep 0 /WIN/,Yprecision 5 /WIN/,xstep_Ylabels 98 /WIN/,Ymin_axis 9.379000000000003 /WIN/,ylength 644 /WIN/,topright 1 /WIN/,xlength 1231 /WIN/,x_Ylabels 25 /WIN/,xborder_right 15 /WIN/,Ymax_axis 9.381000000000004 /WIN/,grid on /WIN/,nodeCount 0 /WIN/,IdArrayElements false /WIN/,Yminorstep 0.0002500000000000001 /WIN/,highlittrace {} /WIN/,DrawLegend 1 /WIN/,y_Xlabel 10 /WIN/,AxisDivisions 10 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,y_Ylabels 0 /WIN/,Ylabels {{Lake Pulse, run 1}} /WIN/,FewXAxisTicks false /WIN/,Xmin_data 3650 /WIN/,Xmajorstep 1000.0 /WIN/,canvas_colour #e0e0e0 /WIN/,yborder_top 40 /WIN/,Xmax_data 7300]]>
+        </container>
+      </pane>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>

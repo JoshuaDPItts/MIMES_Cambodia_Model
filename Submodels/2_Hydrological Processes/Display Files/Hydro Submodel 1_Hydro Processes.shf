@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="22" y="-13"  w="1600" h="817"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Page 1">
+    <panedwindow orient="vertical">
+      <pane>
+         <container type="plotter1_dot_25">
+          <![CDATA[/WIN/,fontLabels {Helvetica 8 normal} /WIN/,X_scalestep 0 /WIN/,Xprecision 1 /WIN/,y_Xlabel 10 /WIN/,ylength 366 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,fontTitle {Helvetica 8 normal} /WIN/,xlength 1231 /WIN/,Ymin_data 1.96 /WIN/,stringInfo {} /WIN/,Xminorstep 500.0 /WIN/,IdArrayElements false /WIN/,Ymax_data 10.14 /WIN/,Yscale 0.03278688524590164 /WIN/,Yvars {{/Lake Pulse} {/Lake pulse/Year/Lake Pulse}} /WIN/,Yprecision 2 /WIN/,Xmin_axis 0.0 /WIN/,Xmax_axis 4000.0 /WIN/,Ylabels {{Lake Pulse, run 1}} /WIN/,yborder_top 40 /WIN/,xwindow_size 0 /WIN/,ystep_Ylabels 12 /WIN/,Yminorstep 1.0 /WIN/,ywindow_size 0 /WIN/,DrawLegend 1 /WIN/,xstep_Ylabels 98 /WIN/,Ymin_axis 0.0 /WIN/,x_Xlabel 100 /WIN/,grapharea_colour white /WIN/,Ymax_axis 12.0 /WIN/,xborder_right 15 /WIN/,x_Ylabels 25 /WIN/,Xmajorstep 1000.0 /WIN/,Y_max_scalestep 0 /WIN/,nodeCount 0 /WIN/,xborder_left 70 /WIN/,pointer 1 /WIN/,usedLegend 0 /WIN/,Y_min_scalestep 0 /WIN/,AxisDivisions 10 /WIN/,redraw 0 /WIN/,AutoAxisScaling 1 /WIN/,yborder_bottom 40 /WIN/,topright 1 /WIN/,y_Ylabels 0 /WIN/,Xmin_data 5 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,fontValues {Helvetica 8 normal} /WIN/,Tscale 3.249390739236393 /WIN/,Ymajorstep 2.0 /WIN/,grid on /WIN/,Xmax_data 3650 /WIN/,highlittrace {}]]>
+        </container>
+      </pane>
+      <pane>
+         <container type="slide139">
+          <![CDATA[{/Obs vs Synthetic Wave}]]>
+        </container>
+      </pane>
+      <sash index="0" xposn="1" yposn="473"/>
+    </panedwindow>
+  </page>
+  <page caption="Page 2">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,Yminorstep 0.05 /WIN/,yborder_bottom 40 /WIN/,FewXAxisTicks false /WIN/,grid on /WIN/,canvas_colour #e0e0e0 /WIN/,xborder_left 70 /WIN/,DrawLegend 1 /WIN/,Ymin_axis 9.1 /WIN/,Y_max_scalestep 0 /WIN/,Yscale 0.0026595744680851063 /WIN/,x_Ylabels 25 /WIN/,Ymax_axis 9.6 /WIN/,Xmajorstep 1000.0 /WIN/,Yvars {{/Lake Pulse}} /WIN/,nodeCount 0 /WIN/,Y_min_scalestep 0 /WIN/,yborder_top 40 /WIN/,ylength 188 /WIN/,AutoAxisScaling 1 /WIN/,usedLegend 0 /WIN/,x_Xlabel 100 /WIN/,xlength 507 /WIN/,highlittrace {} /WIN/,y_Ylabels 0 /WIN/,Xmin_data 5 /WIN/,fontValues {Helvetica 8 normal} /WIN/,Ymajorstep 0.1 /WIN/,Xmax_data 3650 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,ystep_Ylabels 12 /WIN/,Ylabels {{Lake Pulse, run 1}} /WIN/,grapharea_colour white /WIN/,topright 1 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,IdArrayElements false /WIN/,Ymin_data 9.17 /WIN/,xstep_Ylabels 98 /WIN/,stringInfo {} /WIN/,Ymax_data 9.57 /WIN/,Xminorstep 500.0 /WIN/,redraw 0 /WIN/,xwindow_size 0 /WIN/,xborder_right 15 /WIN/,y_Xlabel 10 /WIN/,Xmin_axis 0.0 /WIN/,X_scalestep 0 /WIN/,Tscale 7.889546351084813 /WIN/,Yprecision 2 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,ywindow_size 0 /WIN/,Xmax_axis 4000.0 /WIN/,pointer 1 /WIN/,AxisDivisions 10]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="polygon375">
+              <![CDATA[/WIN/,datamax 19.57 /WIN/,ETCount 0 /WIN/,c10 #9898e847e847 /WIN/,c11 #9494ec3bec3b /WIN/,range 14.0 /WIN/,allETs {{} {}} /WIN/,cmid #80ffff /WIN/,c12 #9090f02ff02f /WIN/,c13 #8c8cf423f423 /WIN/,ycoord {/Polygon Attributes/Vertices/Y Choice} /WIN/,c14 #8888f817f817 /WIN/,orient h /WIN/,c15 #8484fc0bfc0b /WIN/,c16 #8080ffffffff /WIN/,c17 #7878efffffff /WIN/,c18 #7070dfffffff /WIN/,c19 #6868cfffffff /WIN/,c20 #6060bfffffff /WIN/,c21 #5858afffffff /WIN/,c22 #50509fffffff /WIN/,cbot #c0c0c0 /WIN/,c23 #48488fffffff /WIN/,c24 #40407fffffff /WIN/,c25 #38386fffffff /WIN/,c26 #30305fffffff /WIN/,c27 #28284fffffff /WIN/,c28 #20203fffffff /WIN/,c30 #10101fffffff /WIN/,c29 #18182fffffff /WIN/,c31 #08080fffffff /WIN/,imgs 0 /WIN/,c32 #00000000ffff /WIN/,state displaying /WIN/,stringInfo {} /WIN/,dataETs {} /WIN/,colourMapTweaked 0 /WIN/,xcoord {/Polygon Attributes/Vertices/X Choice} /WIN/,scalex 192.5564308234005 /WIN/,scaley 172.50314070351763 /WIN/,sourcefile model /WIN/,cbord black /WIN/,min 0.0 /WIN/,max 14.0 /WIN/,integer 0 /WIN/,color {/Catchments/Hydrology/Surface Water} /WIN/,nswatches 32 /WIN/,bw 1 /WIN/,c0 #c0c0c0c0c0c0 /WIN/,c1 #bcbcc4b3c4b3 /WIN/,c2 #b8b8c8a7c8a7 /WIN/,c3 #b4b4cc9bcc9b /WIN/,c4 #b0b0d08fd08f /WIN/,c5 #acacd483d483 /WIN/,c6 #a8a8d877d877 /WIN/,c7 #a4a4dc6bdc6b /WIN/,c8 #a0a0e05fe05f /WIN/,editMode 1 /WIN/,c9 #9c9ce453e453 /WIN/,ctop #0000ff /WIN/,datamin 0.0 /WIN/,stringInfo {}]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="595" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <pane>
+         <container type="slide139">
+          <![CDATA[{/Obs vs Synthetic Wave}]]>
+        </container>
+      </pane>
+      <sash index="0" xposn="1" yposn="565"/>
+    </panedwindow>
+  </page>
+  <page caption="Page 3">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,Ylabels {{Surface Water
+Selected Polgon, run 1}} /WIN/,xstep_Ylabels 202 /WIN/,usedLegend 0 /WIN/,xborder_right 15 /WIN/,y_Ylabels 0 /WIN/,Xmin_data 5 /WIN/,fontValues {Helvetica 8 normal} /WIN/,Xmax_data 3650 /WIN/,Ymajorstep 10.0 /WIN/,x_Xlabel 100 /WIN/,Yscale 0.06818181818181818 /WIN/,yborder_top 40 /WIN/,Yvars {{/Surface Water
+Selected Polgon}} /WIN/,IdArrayElements false /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,AxisDivisions 10 /WIN/,pointer 1 /WIN/,xwindow_size 0 /WIN/,grid on /WIN/,fontTitle {Helvetica 8 normal} /WIN/,FewXAxisTicks false /WIN/,Ymin_data -7.145354748972174 /WIN/,canvas_colour #e0e0e0 /WIN/,yborder_bottom 40 /WIN/,ywindow_size 0 /WIN/,Ymax_data 13.57 /WIN/,stringInfo {} /WIN/,Xminorstep 500.0 /WIN/,Xmin_axis 0.0 /WIN/,topright 1 /WIN/,Yprecision 1 /WIN/,xborder_left 70 /WIN/,Xmax_axis 4000.0 /WIN/,ylength 440 /WIN/,y_Xlabel 10 /WIN/,xlength 507 /WIN/,Y_max_scalestep 0 /WIN/,Yminorstep 5.0 /WIN/,grapharea_colour white /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,Ymin_axis -10.0 /WIN/,DrawLegend 1 /WIN/,X_scalestep 0 /WIN/,x_Ylabels 25 /WIN/,Ymax_axis 20.0 /WIN/,redraw 0 /WIN/,Y_min_scalestep 0 /WIN/,nodeCount 0 /WIN/,highlittrace {} /WIN/,ystep_Ylabels 12 /WIN/,Xmajorstep 1000.0 /WIN/,AutoAxisScaling 1 /WIN/,Tscale 7.889546351084813]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="polygon375">
+              <![CDATA[/WIN/,c4 #c0c0c0c0c0c0 /WIN/,c5 #c0c0c0c0c0c0 /WIN/,c6 #c0c0c0c0c0c0 /WIN/,c7 #c0c0c0c0c0c0 /WIN/,cbord black /WIN/,c8 #c0c0c0c0c0c0 /WIN/,c9 #c0c0c0c0c0c0 /WIN/,xcoord {/Polygon Attributes/Vertices/X Choice} /WIN/,color {/Polygon Attributes/Polygon Choice} /WIN/,scalex 191.09699516513194 /WIN/,scaley 167.16661619598483 /WIN/,dataETs {} /WIN/,paintColour #c0c0c0c0c0c0 /WIN/,c10 #c0c0c0c0c0c0 /WIN/,c11 #c0c0c0c0c0c0 /WIN/,ctop #ffff80 /WIN/,integer 1 /WIN/,c12 #c0c0c0c0c0c0 /WIN/,c13 #c0c0c0c0c0c0 /WIN/,colourMapTweaked 0 /WIN/,c14 #c0c0c0c0c0c0 /WIN/,c15 #c0c0c0c0c0c0 /WIN/,c16 #c0c0c0c0c0c0 /WIN/,c17 #c4b3c4b3bcbc /WIN/,c18 #c8a7c8a7b8b8 /WIN/,cmid #c0c0c0 /WIN/,c19 #cc9bcc9bb4b4 /WIN/,c20 #d08fd08fb0b0 /WIN/,c21 #d483d483acac /WIN/,c22 #d877d877a8a8 /WIN/,c23 #dc6bdc6ba4a4 /WIN/,c24 #e05fe05fa0a0 /WIN/,c25 #e453e4539c9c /WIN/,stringInfo {} /WIN/,c26 #e847e8479898 /WIN/,c27 #ec3bec3b9494 /WIN/,range 1.0 /WIN/,c28 #f02ff02f9090 /WIN/,c29 #f423f4238c8c /WIN/,c30 #f817f8178888 /WIN/,c31 #fc0bfc0b8484 /WIN/,cbot #c0c0c0 /WIN/,nswatches 32 /WIN/,c32 #ffffffff8080 /WIN/,sourcefile model /WIN/,allETs {{} {}} /WIN/,datamin 0 /WIN/,ycoord {/Polygon Attributes/Vertices/Y Choice} /WIN/,datamax 1 /WIN/,imgs 0 /WIN/,orient h /WIN/,ETCount 0 /WIN/,editMode 1 /WIN/,min 0.0 /WIN/,max 1.0 /WIN/,state displaying /WIN/,bw 1 /WIN/,c0 #c0c0c0c0c0c0 /WIN/,c1 #c0c0c0c0c0c0 /WIN/,c2 #c0c0c0c0c0c0 /WIN/,c3 #c0c0c0c0c0c0 /WIN/,stringInfo {}]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="595" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <pane>
+         <container type="slide139">
+          <![CDATA[{/Slider Controls/Choose Polygon}]]>
+        </container>
+      </pane>
+      <sash index="0" xposn="1" yposn="570"/>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>

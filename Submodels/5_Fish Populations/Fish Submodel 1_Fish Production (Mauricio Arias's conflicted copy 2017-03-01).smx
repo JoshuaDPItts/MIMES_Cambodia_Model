@@ -1,0 +1,15 @@
+[add(node_attribute(node00000,c_new,4)),remove(node_attribute(node00000,c_new,0))].
+[add(graphical_info(node01135,centre,[20,-946])),remove(graphical_info(node01135,centre,[21,-946]))].
+[add(node_attribute(node00000,c_new,0)),add(node_refinement(node01236,spec,'sum([[Juvenils]])')),add(node_refinement(node01236,units,array(1,8))),add(node_refinement(node01236,value,sum([['Juvenils']]))),remove(node_attribute(node00000,c_new,4)),remove(node_refinement(node01236,spec,'[[Juvenils]]')),remove(node_refinement(node01236,units,array(array(1,8),30))),remove(node_refinement(node01236,value,[['Juvenils']]))].
+[add(node_attribute(node00000,c_new,5)),remove(node_attribute(node00000,c_new,0))].
+[add(node_attribute(node00000,c_new,0)),add(node_refinement(node01134,spec,'sum([[Adults]])')),add(node_refinement(node01134,units,array(1,8))),add(node_refinement(node01134,value,sum([['Adults']]))),remove(node_attribute(node00000,c_new,5)),remove(node_refinement(node01134,spec,'[[Adults]]')),remove(node_refinement(node01134,units,array(array(1,8),30))),remove(node_refinement(node01134,value,[['Adults']]))].
+[add(node_attribute(node00000,c_new,6)),remove(node_attribute(node00000,c_new,0))].
+[add(graphical_info(node01135,caption_offset,[23,-32])),remove(graphical_info(node01135,caption_offset,[10,-30]))].
+[add(graphical_info(node01135,centre,[-31,-979])),remove(graphical_info(node01135,centre,[20,-946]))].
+[add(graphical_info(arc00643,curve,[-526,196])),remove(graphical_info(arc00643,curve,[-188,152]))].
+[].
+[].
+[].
+[].
+[].
+[].

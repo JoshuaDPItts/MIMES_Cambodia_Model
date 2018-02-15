@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="-8" y="-8"  w="1600" h="817"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Choose Landcover_Spatial">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+            <panedwindow orient="vertical">
+              <pane>
+                 <container type="polygon375">
+                  <![CDATA[/WIN/,allETs {{} {}} /WIN/,c19 #2fffffff2fff /WIN/,c20 #3fffffff3fff /WIN/,c21 #4fffffff4fff /WIN/,c22 #5fffffff5fff /WIN/,ycoord {/Polygon Attributes/Vertices/Y Choice} /WIN/,c23 #6fffffff6fff /WIN/,orient h /WIN/,c24 #7fffffff7fff /WIN/,cbord black /WIN/,c25 #8fffffff8fff /WIN/,c26 #9fffffff9fff /WIN/,c27 #afffffffafff /WIN/,c28 #bfffffffbfff /WIN/,ctop white /WIN/,c30 #dfffffffdfff /WIN/,c29 #cfffffffcfff /WIN/,color {/Catchments/Selected Land Cover Proportion} /WIN/,c31 #efffffffefff /WIN/,colourMapTweaked 0 /WIN/,c32 #ffffffffffff /WIN/,bw 1 /WIN/,c0 #000000000000 /WIN/,c1 #00000fff0000 /WIN/,cmid green /WIN/,c2 #00001fff0000 /WIN/,c3 #00002fff0000 /WIN/,datamin -0.11037867799380295 /WIN/,c4 #00003fff0000 /WIN/,c5 #00004fff0000 /WIN/,datamax 0.2898956036248645 /WIN/,c6 #00005fff0000 /WIN/,c7 #00006fff0000 /WIN/,ETCount 0 /WIN/,c8 #00007fff0000 /WIN/,min 0.0 /WIN/,c9 #00008fff0000 /WIN/,max 0.8 /WIN/,xcoord {/Polygon Attributes/Vertices/X Choice} /WIN/,scalex 127.24654377880185 /WIN/,cbot black /WIN/,scaley 85.22605965463107 /WIN/,imgs 0 /WIN/,editMode 0 /WIN/,range 0.8 /WIN/,nswatches 32 /WIN/,dataETs {} /WIN/,stringInfo {} /WIN/,c10 #00009fff0000 /WIN/,c11 #0000afff0000 /WIN/,integer 0 /WIN/,c12 #0000bfff0000 /WIN/,c13 #0000cfff0000 /WIN/,c14 #0000dfff0000 /WIN/,state displaying /WIN/,sourcefile model /WIN/,c15 #0000efff0000 /WIN/,c16 #0000ffff0000 /WIN/,c17 #0fffffff0fff /WIN/,c18 #1fffffff1fff /WIN/,stringInfo {}]]>
+                </container>
+              </pane>
+              <pane>
+                 <container type="slide139">
+                  <![CDATA[{/Slider Controls/Choose LandCover}]]>
+                </container>
+              </pane>
+              <sash index="0" xposn="1" yposn="318"/>
+              <pane>
+                 <container type="tabular11510">
+                  <![CDATA[{{/Names/LandCover Name}} {rows cols cols cols} {0 {General 4 0} -1 {General 4 0}} 1]]>
+                </container>
+              </pane>
+              <sash index="1" xposn="1" yposn="519"/>
+            </panedwindow>
+          </pane>
+          <pane>
+            <panedwindow orient="vertical">
+              <pane>
+              </pane>
+              <pane>
+                 <container type="plotter1_dot_25">
+                  <![CDATA[/WIN/,ystep_Ylabels 12 /WIN/,xwindow_size 0 /WIN/,ylength 280 /WIN/,stringInfo {} /WIN/,y_Ylabels 0 /WIN/,Xmin_data 0 /WIN/,Xminorstep 500.0 /WIN/,topright 1 /WIN/,ywindow_size 0 /WIN/,Yvars {{/Lake Pulse}} /WIN/,xstep_Ylabels 98 /WIN/,xlength 731 /WIN/,yborder_bottom 40 /WIN/,Xmax_data 3650 /WIN/,xborder_right 15 /WIN/,Yprecision 1 /WIN/,xborder_left 70 /WIN/,y_Xlabel 10 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymin_data 7.26 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,redraw 0 /WIN/,Yminorstep 0.5 /WIN/,X_scalestep 0 /WIN/,Ylabels {{Lake Pulse, run 1}} /WIN/,AxisDivisions 10 /WIN/,Ymax_data 9.79 /WIN/,Y_max_scalestep 0 /WIN/,DrawLegend 1 /WIN/,Tscale 5.471956224350206 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,Xmin_axis 0.0 /WIN/,Y_min_scalestep 0 /WIN/,Xmajorstep 1000.0 /WIN/,Xmax_axis 4000.0 /WIN/,grapharea_colour white /WIN/,AutoAxisScaling 1 /WIN/,highlittrace {} /WIN/,usedLegend 1 /WIN/,pointer 1 /WIN/,Ymin_axis 7.0 /WIN/,Yscale 0.010714285714285714 /WIN/,grid on /WIN/,yborder_top 40 /WIN/,x_Xlabel 100 /WIN/,fontValues {Helvetica 8 normal} /WIN/,Ymax_axis 10.0 /WIN/,x_Ylabels 25 /WIN/,Ymajorstep 1.0 /WIN/,nodeCount 0 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,IdArrayElements false]]>
+                </container>
+              </pane>
+              <sash index="0" xposn="1" yposn="337"/>
+            </panedwindow>
+          </pane>
+          <sash index="0" xposn="494" yposn="1"/>
+        </panedwindow>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Flooded Landcovers-Time Series">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,grapharea_colour white /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,Xmax_data 3650 /WIN/,xwindow_size 0 /WIN/,Yprecision 4 /WIN/,grid on /WIN/,ywindow_size 0 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymin_data 2542.1892627955913 /WIN/,Yscale 0.0970873786407767 /WIN/,Yminorstep 2.5 /WIN/,ystep_Ylabels 12 /WIN/,ylength 206 /WIN/,DrawLegend 1 /WIN/,Ymax_data 2560.661387717834 /WIN/,xborder_left 70 /WIN/,xlength 305 /WIN/,Y_max_scalestep 0 /WIN/,yborder_top 40 /WIN/,yborder_bottom 40 /WIN/,xstep_Ylabels 157 /WIN/,Xmin_axis 0.0 /WIN/,Xmajorstep 1000.0 /WIN/,Xmax_axis 4000.0 /WIN/,xborder_right 15 /WIN/,Y_min_scalestep 0 /WIN/,x_Xlabel 100 /WIN/,usedLegend 1 /WIN/,AutoAxisScaling 1 /WIN/,Ylabels {{Open Water Lake Area, run 1}} /WIN/,Yvars {{/Open Water Lake Area}} /WIN/,highlittrace {} /WIN/,Ymin_axis 2542.0 /WIN/,AxisDivisions 10 /WIN/,fontValues {Helvetica 8 normal} /WIN/,Ymajorstep 5.0 /WIN/,x_Ylabels 25 /WIN/,Ymax_axis 2562.0 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,nodeCount 0 /WIN/,topright 1 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,redraw 0 /WIN/,IdArrayElements false /WIN/,pointer 1 /WIN/,stringInfo {} /WIN/,Tscale 13.114754098360656 /WIN/,y_Xlabel 10 /WIN/,Xminorstep 500.0 /WIN/,X_scalestep 0 /WIN/,y_Ylabels 0 /WIN/,Xmin_data 0]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,ystep_Ylabels 12 /WIN/,xwindow_size 0 /WIN/,stringInfo {} /WIN/,ylength 206 /WIN/,y_Ylabels 0 /WIN/,Xmin_data 0 /WIN/,topright 1 /WIN/,Xminorstep 500.0 /WIN/,ywindow_size 0 /WIN/,Yvars {{/Gallery Forest Area}} /WIN/,xstep_Ylabels 141 /WIN/,xlength 326 /WIN/,yborder_bottom 40 /WIN/,Xmax_data 3650 /WIN/,xborder_right 15 /WIN/,Yprecision 1 /WIN/,y_Xlabel 10 /WIN/,xborder_left 70 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymin_data 587.3455985597411 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,redraw 0 /WIN/,Yminorstep 50.0 /WIN/,X_scalestep 0 /WIN/,Ylabels {{Gallery Forest Area, run 1}} /WIN/,AxisDivisions 10 /WIN/,Ymax_data 835.4045775615082 /WIN/,Y_max_scalestep 0 /WIN/,DrawLegend 1 /WIN/,Tscale 12.269938650306749 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,Xmin_axis 0.0 /WIN/,Y_min_scalestep 0 /WIN/,Xmajorstep 1000.0 /WIN/,Xmax_axis 4000.0 /WIN/,grapharea_colour white /WIN/,AutoAxisScaling 1 /WIN/,highlittrace {} /WIN/,usedLegend 1 /WIN/,pointer 1 /WIN/,Yscale 1.941747572815534 /WIN/,Ymin_axis 500.0 /WIN/,grid on /WIN/,yborder_top 40 /WIN/,fontValues {Helvetica 8 normal} /WIN/,x_Xlabel 100 /WIN/,x_Ylabels 25 /WIN/,Ymax_axis 900.0 /WIN/,Ymajorstep 100.0 /WIN/,nodeCount 0 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,IdArrayElements false]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="393" yposn="1"/>
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,xwindow_size 0 /WIN/,Tscale 9.569377990430622 /WIN/,Ymajorstep 20.0 /WIN/,nodeCount 0 /WIN/,IdArrayElements false /WIN/,fontLabels {Helvetica 8 normal} /WIN/,ywindow_size 0 /WIN/,Xprecision 1 /WIN/,AxisDivisions 10 /WIN/,x_Xlabel 100 /WIN/,grapharea_colour white /WIN/,y_Ylabels 0 /WIN/,Ylabels {{Seasonally Habitat Flooded Area, run 1}} /WIN/,FewXAxisTicks false /WIN/,Xmin_data 0 /WIN/,canvas_colour #e0e0e0 /WIN/,yborder_top 40 /WIN/,stringInfo {} /WIN/,xborder_left 70 /WIN/,Xminorstep 500.0 /WIN/,Xmax_data 3650 /WIN/,Yscale 0.6796116504854369 /WIN/,Yprecision 3 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,topright 1 /WIN/,Ymin_data 4390.028046934812 /WIN/,Y_max_scalestep 0 /WIN/,grid on /WIN/,Ymax_data 4518.6435444652925 /WIN/,pointer 1 /WIN/,Yminorstep 10.0 /WIN/,highlittrace {} /WIN/,DrawLegend 1 /WIN/,Y_min_scalestep 0 /WIN/,Yvars {{/Seasonally Habitat Flooded Area}} /WIN/,y_Xlabel 10 /WIN/,Xmin_axis 0.0 /WIN/,AutoAxisScaling 1 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,Xmax_axis 4000.0 /WIN/,Xmajorstep 1000.0 /WIN/,ystep_Ylabels 12 /WIN/,usedLegend 1 /WIN/,X_scalestep 0 /WIN/,xstep_Ylabels 203 /WIN/,Ymin_axis 4390.0 /WIN/,ylength 206 /WIN/,redraw 0 /WIN/,yborder_bottom 40 /WIN/,xlength 418 /WIN/,x_Ylabels 25 /WIN/,xborder_right 15 /WIN/,Ymax_axis 4530.0 /WIN/,fontValues {Helvetica 8 normal}]]>
+            </container>
+          </pane>
+          <sash index="1" xposn="809" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,xborder_right 15 /WIN/,Yscale 0.4225352112676056 /WIN/,grid on /WIN/,fontValues {Helvetica 8 normal} /WIN/,x_Xlabel 100 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymajorstep 20.0 /WIN/,Ymin_data 3869.880667640665 /WIN/,X_scalestep 0 /WIN/,Ylabels {{Transition Habitat Area, run 1}} /WIN/,AxisDivisions 10 /WIN/,Ymax_data 3966.5019482697994 /WIN/,Y_max_scalestep 0 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,Xmin_axis 0.0 /WIN/,xwindow_size 0 /WIN/,Y_min_scalestep 0 /WIN/,Xmax_axis 4000.0 /WIN/,stringInfo {} /WIN/,AutoAxisScaling 1 /WIN/,topright 1 /WIN/,Xminorstep 500.0 /WIN/,ywindow_size 0 /WIN/,yborder_bottom 40 /WIN/,Yprecision 3 /WIN/,pointer 1 /WIN/,Ymin_axis 3860.0 /WIN/,y_Xlabel 10 /WIN/,xborder_left 70 /WIN/,yborder_top 40 /WIN/,x_Ylabels 25 /WIN/,Ymax_axis 3980.0 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,redraw 0 /WIN/,nodeCount 0 /WIN/,Yminorstep 10.0 /WIN/,DrawLegend 1 /WIN/,IdArrayElements false /WIN/,Tscale 12.987012987012987 /WIN/,ystep_Ylabels 12 /WIN/,Xmajorstep 1000.0 /WIN/,ylength 284 /WIN/,y_Ylabels 0 /WIN/,Xmin_data 0 /WIN/,grapharea_colour white /WIN/,highlittrace {} /WIN/,Yvars {{/Transition Habitat Area}} /WIN/,xstep_Ylabels 156 /WIN/,xlength 308 /WIN/,Xmax_data 3650 /WIN/,usedLegend 1]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,y_Ylabels 0 /WIN/,Ylabels {{Rainfed Habitat Area, run 1}} /WIN/,FewXAxisTicks false /WIN/,Xmin_data 0 /WIN/,Xmajorstep 1000.0 /WIN/,canvas_colour #e0e0e0 /WIN/,yborder_top 40 /WIN/,Xmax_data 3650 /WIN/,usedLegend 1 /WIN/,redraw 0 /WIN/,yborder_bottom 40 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymin_data 1187.9714757844965 /WIN/,fontValues {Helvetica 8 normal} /WIN/,Y_max_scalestep 0 /WIN/,xwindow_size 0 /WIN/,Tscale 12.5 /WIN/,Ymajorstep 100.0 /WIN/,Ymax_data 1665.8793927535203 /WIN/,pointer 1 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,ywindow_size 0 /WIN/,Xprecision 1 /WIN/,Y_min_scalestep 0 /WIN/,Yvars {{/Rainfed Habitat Area}} /WIN/,Xmin_axis 0.0 /WIN/,AutoAxisScaling 1 /WIN/,x_Xlabel 100 /WIN/,grapharea_colour white /WIN/,Xmax_axis 4000.0 /WIN/,stringInfo {} /WIN/,ystep_Ylabels 12 /WIN/,xborder_left 70 /WIN/,Xminorstep 500.0 /WIN/,Yscale 2.112676056338028 /WIN/,X_scalestep 0 /WIN/,Yprecision 2 /WIN/,xstep_Ylabels 146 /WIN/,Ymin_axis 1100.0 /WIN/,ylength 284 /WIN/,topright 1 /WIN/,xlength 320 /WIN/,x_Ylabels 25 /WIN/,xborder_right 15 /WIN/,Ymax_axis 1700.0 /WIN/,grid on /WIN/,nodeCount 0 /WIN/,IdArrayElements false /WIN/,Yminorstep 50.0 /WIN/,highlittrace {} /WIN/,DrawLegend 1 /WIN/,y_Xlabel 10 /WIN/,AxisDivisions 10]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="396" yposn="1"/>
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,Yminorstep 0.5 /WIN/,yborder_bottom 40 /WIN/,DrawLegend 1 /WIN/,X_scalestep 0 /WIN/,grapharea_colour white /WIN/,topright 1 /WIN/,Yscale 0.014084507042253521 /WIN/,y_Ylabels 0 /WIN/,Xmin_data 0 /WIN/,pointer 1 /WIN/,Xmajorstep 1000.0 /WIN/,Xmax_data 3650 /WIN/,xwindow_size 0 /WIN/,usedLegend 1 /WIN/,y_Xlabel 10 /WIN/,ystep_Ylabels 12 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,Y_max_scalestep 0 /WIN/,ywindow_size 0 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,Ymin_data 13073.795093606572 /WIN/,fontValues {Helvetica 8 normal} /WIN/,xstep_Ylabels 183 /WIN/,Ymajorstep 1.0 /WIN/,Y_min_scalestep 0 /WIN/,Ymax_data 13073.795093606572 /WIN/,yborder_top 40 /WIN/,xborder_right 15 /WIN/,ylength 284 /WIN/,grid on /WIN/,AutoAxisScaling 1 /WIN/,xborder_left 70 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,Xmin_axis 0.0 /WIN/,xlength 421 /WIN/,Xmax_axis 4000.0 /WIN/,stringInfo {} /WIN/,AxisDivisions 10 /WIN/,Xminorstep 500.0 /WIN/,redraw 0 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,x_Xlabel 100 /WIN/,Ymin_axis 13072.0 /WIN/,Tscale 9.501187648456057 /WIN/,Ylabels {{Total Floodplain Habitat Area, run 1}} /WIN/,Yprecision 5 /WIN/,highlittrace {} /WIN/,IdArrayElements false /WIN/,x_Ylabels 25 /WIN/,Ymax_axis 13076.0 /WIN/,Yvars {{/Total Floodplain Habitat Area}} /WIN/,nodeCount 0]]>
+            </container>
+          </pane>
+          <sash index="1" xposn="806" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <sash index="0" xposn="1" yposn="335"/>
+    </panedwindow>
+  </page>
+  <page caption="Change Landcover Change Rates">
+    <panedwindow orient="vertical">
+      <pane>
+         <container type="slide139">
+          <![CDATA[{/Wetland LandCover Change Rates/Rainfed to seasonally flooded} {/Wetland LandCover Change Rates/Rainfed to Transitional} {/Wetland LandCover Change Rates/Rainfed to Open Water} {/Wetland LandCover Change Rates/Rainfed to Gallery Forest} {/Wetland LandCover Change Rates/seasonally flooded to Transitional} {/Wetland LandCover Change Rates/Transitional to Open Water} {/Wetland LandCover Change Rates/Open Water to Gallery Forest} {/Wetland LandCover Change Rates/seasonally flooded to Open Water} {/Wetland LandCover Change Rates/seasonally flooded to Gallery Forest} {/Wetland LandCover Change Rates/Transitional to Gallery Forest}]]>
+        </container>
+      </pane>
+      <pane>
+      </pane>
+      <sash index="0" xposn="1" yposn="652"/>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>

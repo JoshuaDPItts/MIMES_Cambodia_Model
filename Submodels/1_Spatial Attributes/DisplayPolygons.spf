@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="spf1.xsl"?>
+<spf simile_version="6.5">
+<submodel label="top">
+<variables>
+</variables>
+<submodels>
+<submodel label="Shape file">
+ <variables>
+ <csv_columns label="X" filename="X.csv" data_column="X">
+ </csv_columns>
+ <csv_columns label="Y" filename="Y.csv" data_column="Y">
+ </csv_columns>
+ <csv_columns label="Shape" filename="Shape.csv" data_column="Polygon ID">
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+</submodels>
+</submodel>
+</spf>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="127" y="33"  w="1360" h="771"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Page 1">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+            <panedwindow orient="vertical">
+              <pane>
+                 <container type="polygon375">
+                  <![CDATA[/WIN/,datamin 0.0 /WIN/,xcoord {/Polygon Attributes/Vertices/X Choice} /WIN/,colourMapTweaked 0 /WIN/,datamax 0.34 /WIN/,scalex 200.18001875415038 /WIN/,sourcefile model /WIN/,scaley 160.95514511320133 /WIN/,ETCount 0 /WIN/,c10 #ffffb04f3030 /WIN/,range 0.65 /WIN/,c11 #ffffa8572828 /WIN/,c12 #ffffa05f2020 /WIN/,c13 #ffff98671818 /WIN/,c14 #ffff906f1010 /WIN/,c15 #ffff88770808 /WIN/,c16 #ffff80800000 /WIN/,c17 #ffff78780000 /WIN/,c18 #ffff70700000 /WIN/,c19 #ffff68680000 /WIN/,c20 #ffff60600000 /WIN/,c21 #ffff58580000 /WIN/,c22 #ffff50500000 /WIN/,c23 #ffff48480000 /WIN/,c24 #ffff40400000 /WIN/,bw 1 /WIN/,c25 #ffff38380000 /WIN/,c26 #ffff30300000 /WIN/,c0 #ffffffff8080 /WIN/,c27 #ffff28280000 /WIN/,c1 #fffff8077878 /WIN/,c28 #ffff20200000 /WIN/,c2 #fffff00f7070 /WIN/,c30 #ffff10100000 /WIN/,c29 #ffff18180000 /WIN/,c3 #ffffe8176868 /WIN/,c31 #ffff08080000 /WIN/,c4 #ffffe01f6060 /WIN/,c32 #ffff00000000 /WIN/,c5 #ffffd8275858 /WIN/,c6 #ffffd02f5050 /WIN/,state displaying /WIN/,c7 #ffffc8374848 /WIN/,editMode 0 /WIN/,c8 #ffffc03f4040 /WIN/,c9 #ffffb8473838 /WIN/,ctop #ff0000 /WIN/,dataETs {} /WIN/,cbord black /WIN/,min 0.0 /WIN/,allETs {{} {}} /WIN/,cmid #ff8000 /WIN/,max 0.65 /WIN/,integer 0 /WIN/,color {/Polygon Attributes/Com Code} /WIN/,ycoord {/Polygon Attributes/Vertices/Y Choice} /WIN/,nswatches 32 /WIN/,orient h /WIN/,cbot #ffff80 /WIN/,imgs 0 /WIN/,stringInfo {} /WIN/,stringInfo {}]]>
+                </container>
+              </pane>
+              <pane>
+                 <container type="slide139">
+                  <![CDATA[{/Choose Com code}]]>
+                </container>
+              </pane>
+              <sash index="0" xposn="1" yposn="510"/>
+            </panedwindow>
+          </pane>
+          <pane>
+             <container type="TextView20140827">
+              <![CDATA[1 Rural farmers , Not Educated, Small families
+2 Rural, Educated, Towns People, small farmers
+3 Rural, Educated Towns People, Merchants
+4 Rural, Not Educated, Small farmers, Large Families
+5 Rural, Not Educatied, Not Farmers (Fisherman?) Big HH
+6 Rural, Educated, Not Farmers (Fisherman?), Small HH
+7 Rural Woman, Non Educated, Small Farmers
+8 Urban Poor Urban, Less Educated
+9 Urban Rich, More Educated
+
+
+
+
+
+
+
+
+
+]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="753" yposn="1"/>
+        </panedwindow>
+      </pane>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>

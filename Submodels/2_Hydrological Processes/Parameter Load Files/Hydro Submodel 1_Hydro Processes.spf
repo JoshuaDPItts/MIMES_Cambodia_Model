@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="spf1.xsl"?>
+<spf simile_version="6.5">
+<submodel label="top">
+<variables>
+<csv_columns label="connect to" filename="../../../Data Input/2_Hydrology_Input Data/Top Level_Connect to.csv" data_column="Polygon_there">
+<value index="1" val="Polygon_here"/>
+<value index="2" val="Connection"/>
+</csv_columns>
+</variables>
+<submodels>
+<submodel label="Harmonics">
+ <variables>
+ <csv_columns label="P Cos" filename="../../../Data Input/2_Hydrology_Input Data/Hydro Submodel_Wave Harmonics.csv" data_column="Cosine">
+ <value index="1" val="Wave Harmonic ID"/>
+ </csv_columns>
+ <csv_columns label="P Sin" filename="../../../Data Input/2_Hydrology_Input Data/Hydro Submodel_Wave Harmonics.csv" data_column="Sine">
+ <value index="1" val="Wave Harmonic ID"/>
+ </csv_columns>
+ <csv_columns label="Period" filename="../../../Data Input/2_Hydrology_Input Data/Hydro Submodel_Wave Harmonics.csv" data_column="Period">
+ <value index="1" val="Wave Harmonic ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="line">
+ <variables>
+ <csv_columns label="Shape" filename="../../../Data Input/1_Spatial Attributes_Input Data/Shape.csv" data_column="Polygon ID">
+ </csv_columns>
+ <csv_columns label="X" filename="../../../Data Input/1_Spatial Attributes_Input Data/X.csv" data_column="X">
+ </csv_columns>
+ <csv_columns label="Y" filename="../../../Data Input/1_Spatial Attributes_Input Data/Y.csv" data_column="Y">
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="Lake pulse">
+ <variables>
+ </variables>
+ <submodels>
+ <submodel label="Year">
+  <variables>
+  <csv_columns label="Lake Pulse" filename="../../../Data Input/2_Hydrology_Input Data/Lake Pulse.csv" data_column="Kampong Luong WL (Spline Predictor Method)">
+  <value index="1" val="Julian Day ID"/>
+  <value index="2" val="Year_ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Weather station">
+ <variables>
+ </variables>
+ <submodels>
+ <submodel label="Jday value">
+  <variables>
+  <csv_columns label="Rain Mean" filename="../../../Data Input/2_Hydrology_Input Data/Weather Station_Rain Mean.csv" data_column="Mean Precip">
+  <value index="1" val="Weather Station ID"/>
+  <value index="2" val="Jday"/>
+  </csv_columns>
+  <csv_columns label="Rain STDev" filename="../../../Data Input/2_Hydrology_Input Data/Weather Station_Rain StDev.csv" data_column="Standard Deviation Precip">
+  <value index="1" val="Weather Station ID"/>
+  <value index="2" val="Jday"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Catchments">
+ <variables>
+ <csv_columns label="sfw conductivity" filename="../../../Data Input/1_Spatial Attributes_Input Data/Catchment_SFW Conductivity.csv" data_column="SFW_Conductivity_test">
+ <value index="1" val="Polygon ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="Hydrology">
+  <variables>
+  <csv_columns label="Elevation" filename="../../../Data Input/1_Spatial Attributes_Input Data/Catchment_Elevation.csv" data_column="Elevation m">
+  <value index="1" val="Polygon ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  <submodel label="Hypso Curve">
+   <variables>
+   <csv_columns label="Cumm Bins" filename="../../../Data Input/2_Hydrology_Input Data/Hyspo Curve_Cumm Bins.csv" data_column="Percent Flooded">
+   <value index="1" val="Polygon ID"/>
+   <value index="2" val="Elevation Bin ID"/>
+   </csv_columns>
+   <csv_columns label="Ebin WS" filename="../../../Data Input/2_Hydrology_Input Data/Hyspo Curve_Ebin WS.csv" data_column="Proportion">
+   <value index="1" val="Polygon ID"/>
+   <value index="2" val="Elevation Bin ID"/>
+   </csv_columns>
+   <csv_columns label="water level" filename="../../../Data Input/2_Hydrology_Input Data/Hypso Curve_Water Level.csv" data_column="Elevation Bin (cm)">
+   <value index="1" val="Polygon ID"/>
+   <value index="2" val="Elevation Bin ID"/>
+   </csv_columns>
+   </variables>
+   <submodels>
+   </submodels>
+  </submodel>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Slider Controls">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+</submodels>
+</submodel>
+</spf>

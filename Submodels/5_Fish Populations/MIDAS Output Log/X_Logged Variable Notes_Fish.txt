@@ -1,0 +1,17 @@
+Label	Description	Units	Dimension_1	Dimension_2	Notes
+PSDM_Juv	Periodic Short Distance Migrators - Juveniles	tons	days	polygon	"Example species: Wallago attu, Phalacronotus apogon, Hampala macrolepidota, Labeo chrysophekadion"
+PSDM_Adults	Periodic Short Distance Migrators - Adults	tons	days	polygon	"Example species: Wallago attu, Phalacronotus apogon, Hampala macrolepidota, Labeo chrysophekadion"
+PLM_Adults	Periodic Lateral Migrators - Adults	tons	days	polygon	"Example species: Mystus mysticetes, Cynoglossus microlepis, Gyrinocheilus pennocki, Macrognathus siamensis"
+PLM _Juv	Periodic Lateral Migrators - Juveniles	tons	days	polygon	"Example species: Mystus mysticetes, Cynoglossus microlepis, Gyrinocheilus pennocki, Macrognathus siamensis"
+PLDM_Juv	Periodic Long Distance Migrators  - Juveniles	tons	days	polygon	"Example species: Cyclocheilichthys enoplos, Pangasius Krempfi, Belodontichthys truncatus, Boesemania microlepis, Pangasius larnaudii"
+PLDM_Adults	Periodic Long Distance Migrators - Adults	tons	days	polygon	"Example species: Cyclocheilichthys enoplos, Pangasius Krempfi, Belodontichthys truncatus, Boesemania microlepis, Pangasius larnaudii"
+OSDM_Juv	Opportunistic Short Distance Migrators - Juveniles	tons	days	polygon	"Example species: Henicorhynchus siamensis, Labiobarbus leptocheilus, Yasuhikotakia modesta"
+OSDM_Adults	Opportunistic Short Distance Migrators - Adults	tons	days	polygon	"Example species: Henicorhynchus siamensis, Labiobarbus leptocheilus, Yasuhikotakia modesta"
+OLM_Juv	Opportunistic Lateral Migrators - Juveniles	tons	days	polygon	"Example species: Clupeichthys aesarnensis, Clupeoides borneensis, Esomus metallicus, Rasbora borneensis"
+OLM_Adults	Opportunistic Lateral Migrators - Adults	tons	days	polygon	"Example species: Clupeichthys aesarnensis, Clupeoides borneensis, Esomus metallicus, Rasbora borneensis"
+Invertebrates_Juv	Invertebrates - Juveniles	tons	days	polygon	
+Invertebrates_Adults	Invertebrates - Adults	tons	days	polygon	
+Fish of Choice_Juv	Fish of Choice - Juveniles	tons	days	polygon	Can be parameterized to reflect species specific traits
+FIsh of Choice_Adults	Fish of Choice - Adults	tons	days	polygon	Can be parameterized to reflect species specific traits
+ELM_Juv	Equilibrium Lateral Migrators	tons	days	polygon	"Example species: Anabas testudineus, Channa striata, Clarias batrachus, Trichopodus trichopterus, Trichopodus microlepis"
+ELM_Adults	Equilibrium Lateral Migrators - Adults	tons	days	polygon	"Example species: Anabas testudineus, Channa striata, Clarias batrachus, Trichopodus trichopterus, Trichopodus microlepis"

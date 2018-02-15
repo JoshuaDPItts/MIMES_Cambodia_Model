@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="4" y="88"  w="1600" h="817"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Page 1">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,ylength 208 /WIN/,Xminorstep 500.0 /WIN/,xlength 506 /WIN/,Y_max_scalestep 0 /WIN/,AxisDivisions 10 /WIN/,Ylabels {{Wave, run 1} {Wave, run 2}} /WIN/,Xmax_axis 4000.0 /WIN/,Xmajorstep 1000.0 /WIN/,Tscale 7.905138339920948 /WIN/,IdArrayElements false /WIN/,topright 1 /WIN/,Ymin_axis -4.0 /WIN/,x_Ylabels 25 /WIN/,y_Xlabel 10 /WIN/,Yvars /Harmonics/Wave /WIN/,Yprecision 1 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,X_scalestep 0 /WIN/,FewXAxisTicks false /WIN/,Y_min_scalestep 0 /WIN/,Ymax_data 3.010647067792059 /WIN/,x_Xlabel 100 /WIN/,Yminorstep 0.5 /WIN/,Xmin_axis 0.0 /WIN/,DrawLegend 1 /WIN/,redraw 0 /WIN/,nodeCount 0 /WIN/,Ymajorstep 1.0 /WIN/,Yscale 0.038461538461538464 /WIN/,xborder_right 15 /WIN/,yborder_bottom 40 /WIN/,highlittrace {} /WIN/,Xmax_data 3649 /WIN/,Ymin_data -3.0034847592600022 /WIN/,canvas_colour #e0e0e0 /WIN/,grid on /WIN/,usedLegend 1 /WIN/,pointer 1 /WIN/,xborder_left 70 /WIN/,grapharea_colour white /WIN/,xstep_Ylabels 74 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,Xmin_data 0 /WIN/,stringInfo {} /WIN/,AutoAxisScaling 1 /WIN/,xwindow_size 0 /WIN/,ywindow_size 0 /WIN/,yborder_top 40 /WIN/,Ymax_axis 4.0 /WIN/,ystep_Ylabels 12 /WIN/,fontValues {Helvetica 8 normal} /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,y_Ylabels 0]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,canvas_colour #e0e0e0 /WIN/,highlittrace {} /WIN/,redraw 0 /WIN/,y_Ylabels 0 /WIN/,stringInfo {} /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,Yscale 0.057692307692307696 /WIN/,Xmax_axis 4000.0 /WIN/,xstep_Ylabels 118 /WIN/,xborder_left 70 /WIN/,Ymin_axis 4.0 /WIN/,x_Ylabels 25 /WIN/,fontValues {Helvetica 8 normal} /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,Xminorstep 500.0 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,AutoAxisScaling 1 /WIN/,xwindow_size 0 /WIN/,Ymax_data 14.07 /WIN/,grapharea_colour white /WIN/,pointer 1 /WIN/,ywindow_size 0 /WIN/,ystep_Ylabels 12 /WIN/,Xmin_axis 0.0 /WIN/,Xmajorstep 1000.0 /WIN/,yborder_bottom 40 /WIN/,nodeCount 0 /WIN/,AxisDivisions 10 /WIN/,topright 1 /WIN/,yborder_top 40 /WIN/,Xmax_data 3649 /WIN/,y_Xlabel 10 /WIN/,Y_max_scalestep 0 /WIN/,Yprecision 2 /WIN/,Ymin_data 4.9954732798340125 /WIN/,Yminorstep 1.0 /WIN/,DrawLegend 1 /WIN/,x_Xlabel 100 /WIN/,IdArrayElements false /WIN/,ylength 208 /WIN/,xlength 633 /WIN/,FewXAxisTicks false /WIN/,Ymajorstep 2.0 /WIN/,Tscale 6.3191153238546605 /WIN/,Xmin_data 0 /WIN/,Ylabels {{Sim Lake Pulse, run 1} {Lake Pulse, run 1} {Sim Lake Pulse, run 2} {Lake Pulse, run 2}} /WIN/,grid on /WIN/,Y_min_scalestep 0 /WIN/,Yvars {{/Sim Lake Pulse} {/Lake Pulse}} /WIN/,X_scalestep 0 /WIN/,xborder_right 15 /WIN/,usedLegend 1 /WIN/,Ymax_axis 16.0]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="594" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <pane>
+         <container type="slide139">
+          <![CDATA[{/Harmonics/Wave Amplitude Slider}]]>
+        </container>
+      </pane>
+      <sash index="0" xposn="1" yposn="338"/>
+      <pane>
+         <container type="slide139">
+          <![CDATA[{/Data or synthetic wave}]]>
+        </container>
+      </pane>
+      <sash index="1" xposn="1" yposn="597"/>
+    </panedwindow>
+  </page>
+  <page caption="Page 2">
+    <panedwindow orient="vertical">
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,Yscale 0.038461538461538464 /WIN/,Ymax_data 3.010647067792059 /WIN/,ystep_Ylabels 12 /WIN/,Xmin_axis 0.0 /WIN/,X_scalestep 0 /WIN/,x_Xlabel 100 /WIN/,nodeCount 0 /WIN/,AxisDivisions 10 /WIN/,fontValues {Helvetica 8 normal} /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,grid on /WIN/,Xmax_data 3649 /WIN/,Xminorstep 500.0 /WIN/,Ymin_data -3.0034847592600022 /WIN/,Xmajorstep 1000.0 /WIN/,yborder_bottom 40 /WIN/,FewXAxisTicks false /WIN/,highlittrace {} /WIN/,Xmin_data 0 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,Yprecision 1 /WIN/,AutoAxisScaling 1 /WIN/,pointer 1 /WIN/,Yminorstep 0.5 /WIN/,DrawLegend 1 /WIN/,Yvars /Harmonics/Wave /WIN/,xborder_left 70 /WIN/,xborder_right 15 /WIN/,Ymax_axis 4.0 /WIN/,Ymajorstep 1.0 /WIN/,canvas_colour #e0e0e0 /WIN/,yborder_top 40 /WIN/,y_Ylabels 0 /WIN/,Tscale 7.905138339920948 /WIN/,Y_max_scalestep 0 /WIN/,xwindow_size 0 /WIN/,grapharea_colour white /WIN/,ywindow_size 0 /WIN/,Xmax_axis 4000.0 /WIN/,xstep_Ylabels 74 /WIN/,IdArrayElements false /WIN/,Ymin_axis -4.0 /WIN/,usedLegend 1 /WIN/,x_Ylabels 25 /WIN/,ylength 208 /WIN/,xlength 506 /WIN/,topright 1 /WIN/,redraw 0 /WIN/,Ylabels {{Wave, run 1} {Wave, run 2}} /WIN/,y_Xlabel 10 /WIN/,stringInfo {} /WIN/,Y_min_scalestep 0 /WIN/,fontTitle {Helvetica 8 normal}]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="plotter1_dot_25">
+              <![CDATA[/WIN/,AutoAxisScaling 1 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,xborder_right 15 /WIN/,Ymax_data 14.07 /WIN/,xborder_left 70 /WIN/,Xmin_axis 0.0 /WIN/,canvas_colour #e0e0e0 /WIN/,usedLegend 1 /WIN/,nodeCount 0 /WIN/,Yvars {{/Sim Lake Pulse} {/Lake Pulse}} /WIN/,Y_max_scalestep 0 /WIN/,Xmax_data 3649 /WIN/,pointer 1 /WIN/,topright 1 /WIN/,xwindow_size 0 /WIN/,stringInfo {} /WIN/,xstep_Ylabels 118 /WIN/,ywindow_size 0 /WIN/,Ymin_data 4.9954732798340125 /WIN/,yborder_top 40 /WIN/,y_Xlabel 10 /WIN/,yborder_bottom 40 /WIN/,Tscale 6.3191153238546605 /WIN/,IdArrayElements false /WIN/,grid on /WIN/,x_Xlabel 100 /WIN/,grapharea_colour white /WIN/,fontValues {Helvetica 8 normal} /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,Xmin_data 0 /WIN/,ystep_Ylabels 12 /WIN/,Y_min_scalestep 0 /WIN/,Xminorstep 500.0 /WIN/,redraw 0 /WIN/,ylength 208 /WIN/,AxisDivisions 10 /WIN/,xlength 633 /WIN/,Xmajorstep 1000.0 /WIN/,Yscale 0.057692307692307696 /WIN/,Ymax_axis 16.0 /WIN/,Ylabels {{Sim Lake Pulse, run 1} {Lake Pulse, run 1} {Sim Lake Pulse, run 2} {Lake Pulse, run 2}} /WIN/,X_scalestep 0 /WIN/,y_Ylabels 0 /WIN/,Yprecision 2 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,Yminorstep 1.0 /WIN/,Xmax_axis 4000.0 /WIN/,DrawLegend 1 /WIN/,FewXAxisTicks false /WIN/,Ymin_axis 4.0 /WIN/,highlittrace {} /WIN/,x_Ylabels 25 /WIN/,Ymajorstep 2.0]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="594" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="slide139">
+              <![CDATA[{/Harmonics/P Cos}]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="slide139">
+              <![CDATA[{/Harmonics/P Sin}]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="594" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <sash index="0" xposn="1" yposn="338"/>
+      <pane>
+        <panedwindow orient="horizontal">
+          <pane>
+             <container type="slide139">
+              <![CDATA[{/Data or synthetic wave}]]>
+            </container>
+          </pane>
+          <pane>
+             <container type="slide139">
+              <![CDATA[{/ENSO Frequency}]]>
+            </container>
+          </pane>
+          <sash index="0" xposn="594" yposn="1"/>
+        </panedwindow>
+      </pane>
+      <sash index="1" xposn="1" yposn="618"/>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>

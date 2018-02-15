@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="-8" y="-8"  w="1600" h="817"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Page 1">
+    <panedwindow orient="vertical">
+      <pane>
+         <container type="plotter1_dot_25">
+          <![CDATA[/WIN/,xborder_right 15 /WIN/,highlittrace {} /WIN/,topright 1 /WIN/,Ymin_axis 16.944000000000003 /WIN/,Yminorstep 0.0005000000000000001 /WIN/,Y_min_scalestep 0 /WIN/,DrawLegend 1 /WIN/,Ymax_axis 16.949 /WIN/,x_Ylabels 25 /WIN/,AutoAxisScaling 1 /WIN/,nodeCount 0 /WIN/,AxisDivisions 10 /WIN/,grid on /WIN/,y_Xlabel 10 /WIN/,Xmajorstep 1000.0 /WIN/,FewXAxisTicks false /WIN/,canvas_colour #e0e0e0 /WIN/,YColours {blue orange green brown purple red black DeepSkyBlue  HotPink ForestGreen} /WIN/,pointer 1 /WIN/,yborder_bottom 40 /WIN/,usedLegend 0 /WIN/,y_Ylabels 0 /WIN/,Xmin_data 0 /WIN/,xwindow_size 0 /WIN/,X_scalestep 0 /WIN/,Xmax_data 3650 /WIN/,fontValues {Helvetica 8 normal} /WIN/,IdArrayElements false /WIN/,Ymajorstep 0.0010000000000000002 /WIN/,grapharea_colour white /WIN/,ywindow_size 0 /WIN/,redraw 0 /WIN/,fontLabels {Helvetica 8 normal} /WIN/,Xprecision 1 /WIN/,fontTitle {Helvetica 8 normal} /WIN/,ylength 422 /WIN/,Tscale 3.249390739236393 /WIN/,Ymin_data 16.9466416592 /WIN/,xlength 1231 /WIN/,Ymax_data 16.9466416592 /WIN/,xborder_left 70 /WIN/,x_Xlabel 100 /WIN/,stringInfo {} /WIN/,Xminorstep 500.0 /WIN/,Xmin_axis 0.0 /WIN/,ystep_Ylabels 12 /WIN/,yborder_top 40 /WIN/,Xmax_axis 4000.0 /WIN/,Yprecision 5 /WIN/,Yvars {{/Sim Lake Pulse}} /WIN/,xstep_Ylabels 118 /WIN/,Yscale 1.1848341232225131e-5 /WIN/,Ylabels {{Sim Lake Pulse, run 1}} /WIN/,Y_max_scalestep 0]]>
+        </container>
+      </pane>
+      <pane>
+         <container type="slide139">
+          <![CDATA[/A0]]>
+        </container>
+      </pane>
+      <sash index="0" xposn="1" yposn="528"/>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>

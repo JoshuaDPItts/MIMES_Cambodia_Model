@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="spf1.xsl"?>
+<spf simile_version="6.5">
+<submodel label="top">
+<variables>
+<csv_columns label="connect to" filename="../../../Data Input/2_Hydrology_Input Data/Top Level_Connect to.csv" data_column="Polygon_there">
+<value index="1" val="Polygon_here"/>
+<value index="2" val="Connection"/>
+</csv_columns>
+</variables>
+<submodels>
+<submodel label="line">
+ <variables>
+ <csv_columns label="Shape" filename="../../../Data Input/1_Spatial Attributes_Input Data/Shape.csv" data_column="Polygon ID">
+ </csv_columns>
+ <csv_columns label="X" filename="../../../Data Input/1_Spatial Attributes_Input Data/X.csv" data_column="X">
+ </csv_columns>
+ <csv_columns label="Y" filename="../../../Data Input/1_Spatial Attributes_Input Data/Y.csv" data_column="Y">
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="LandCover Attributes">
+ <variables>
+ <csv_columns label="Min Elevation" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_Min Elevation.csv" data_column="Min Elevation (m)">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="Max Elevation" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_Max Elevation.csv" data_column="Max Elevation (m)">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="SFW conductivity" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_SFW Conductivity.csv" data_column="SF_Conductivity_Cal2">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="Landcover">
+  <variables>
+  <csv_columns label="Baseline Changes" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Baseline Changes.csv" data_column="Hydrochanges_2">
+  <value index="1" val="Landcover to ID"/>
+  <value index="2" val="Landcover from ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ <submodel label="EBIN">
+  <variables>
+  <csv_columns label="EBIN Prob" filename="../../../Data Input/3_Landcover Production_Input Data/EBIN Prob.csv" data_column="LC_Ratio_corrected">
+  <value index="1" val="Landcover ID"/>
+  <value index="2" val="Elevation Bin ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Lake pulse">
+ <variables>
+ </variables>
+ <submodels>
+ <submodel label="Year">
+  <variables>
+  <csv_columns label="Lake Pulse" filename="../../../Data Input/2_Hydrology_Input Data/Lake Pulse.csv" data_column="Kampong Luong WL (Spline Predictor Method)">
+  <value index="1" val="Julian Day ID"/>
+  <value index="2" val="Year_ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Weather station">
+ <variables>
+ </variables>
+ <submodels>
+ <submodel label="Jday value">
+  <variables>
+  <csv_columns label="Rain Mean" filename="../../../Data Input/2_Hydrology_Input Data/Weather Station_Rain Mean.csv" data_column="Mean Precip">
+  <value index="1" val="Weather Station ID"/>
+  <value index="2" val="Jday"/>
+  </csv_columns>
+  <csv_columns label="Rain STDev" filename="../../../Data Input/2_Hydrology_Input Data/Weather Station_Rain StDev.csv" data_column="Standard Deviation Precip">
+  <value index="1" val="Weather Station ID"/>
+  <value index="2" val="Jday"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Catchments">
+ <variables>
+ <csv_columns label="Area" filename="../../../Data Input/1_Spatial Attributes_Input Data/Catchment_Area.csv" data_column="Area km2">
+ <value index="1" val="Polygon ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="Hydrology">
+  <variables>
+  <csv_columns label="Elevation" filename="../../../Data Input/1_Spatial Attributes_Input Data/Catchment_Elevation.csv" data_column="Elevation m">
+  <value index="1" val="Polygon ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  <submodel label="Hypso Curve">
+   <variables>
+   <csv_columns label="Cumm Bins" filename="../../../Data Input/2_Hydrology_Input Data/Hyspo Curve_Cumm Bins.csv" data_column="Percent Flooded">
+   <value index="1" val="Polygon ID"/>
+   <value index="2" val="Elevation Bin ID"/>
+   </csv_columns>
+   <csv_columns label="Ebin WS" filename="../../../Data Input/2_Hydrology_Input Data/Hyspo Curve_Ebin WS.csv" data_column="Proportion">
+   <value index="1" val="Polygon ID"/>
+   <value index="2" val="Elevation Bin ID"/>
+   </csv_columns>
+   <csv_columns label="water level" filename="../../../Data Input/2_Hydrology_Input Data/Hypso Curve_Water Level.csv" data_column="Elevation Bin (cm)">
+   <value index="1" val="Polygon ID"/>
+   <value index="2" val="Elevation Bin ID"/>
+   </csv_columns>
+   </variables>
+   <submodels>
+   </submodels>
+  </submodel>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Wetland LandCover Change Rates">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="LandCover Change Calibrations">
+ <variables>
+ <csv_columns label="Arias 2012 T3" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Change Calibrations_Arias 2012.csv" data_column="Area Change km2">
+ <value index="1" val="Scenario ID"/>
+ <value index="2" val="Landcover ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="Slider Controls">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+</submodels>
+</submodel>
+</spf>

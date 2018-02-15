@@ -1,0 +1,498 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="spf1.xsl"?>
+<spf simile_version="6.5">
+<submodel label="top">
+<variables>
+<csv_columns label="connect to" filename="../../../Data Input/2_Hydrology_Input Data/Top Level_Connect to.csv" data_column="Polygon_there">
+<value index="1" val="Polygon_here"/>
+<value index="2" val="Connection"/>
+</csv_columns>
+<csv_columns label="Flood Day" filename="../../../Data Input/2_Hydrology_Input Data/Top Level_Flood Day.csv" data_column="Start of flooding">
+<value index="1" val="Year ID"/>
+<value index="2" val="Year Label"/>
+</csv_columns>
+</variables>
+<submodels>
+<submodel label="Light">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="Economic Inputs">
+ <variables>
+ <csv_columns label="Substitutability" filename="../../../Data Input/6_People_Input Data/Economic Inputs_Substitutability.csv" data_column="Substitutability Coeff">
+ <value index="1" val="Eco Service ID"/>
+ </csv_columns>
+ <csv_columns label="International Prices" filename="../../../Data Input/6_People_Input Data/Economic Inputs_Substitutability.csv" data_column="Substitutability Coeff">
+ <value index="1" val="Eco Service ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="Wetland LandCover Change Rates">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="PP attributes">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="LandCover Change Calibrations">
+ <variables>
+ <multi_value label="Arias 2012 T3">
+   <values index="1">
+     <value index="1" value="813"/>
+     <value index="2" value="-612"/>
+     <value index="3" value="-189"/>
+     <value index="4" value="525"/>
+     <value index="5" value="-537"/>
+   </values>
+   <values index="2">
+     <value index="1" value="1061"/>
+     <value index="2" value="-810"/>
+     <value index="3" value="-281"/>
+     <value index="4" value="567"/>
+     <value index="5" value="-536"/>
+   </values>
+   <values index="3">
+     <value index="1" value="1215"/>
+     <value index="2" value="-1041"/>
+     <value index="3" value="-133"/>
+     <value index="4" value="454"/>
+     <value index="5" value="-495"/>
+   </values>
+   <values index="4">
+     <value index="1" value="-201"/>
+     <value index="2" value="339"/>
+     <value index="3" value="-265"/>
+     <value index="4" value="42"/>
+     <value index="5" value="84"/>
+   </values>
+   <values index="5">
+     <value index="1" value="-384"/>
+     <value index="2" value="219"/>
+     <value index="3" value="84"/>
+     <value index="4" value="531"/>
+     <value index="5" value="-451"/>
+   </values>
+ </multi_value>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="line">
+ <variables>
+ <csv_columns label="Shape" filename="../../../Data Input/Model Adminstators Only/1_Spatial Attributes_Input Data/Polygon Shapes.csv" data_column="Polygon ID">
+ </csv_columns>
+ <csv_columns label="X" filename="../../../Data Input/Model Adminstators Only/1_Spatial Attributes_Input Data/Polygon Shapes.csv" data_column="X">
+ </csv_columns>
+ <csv_columns label="Y" filename="../../../Data Input/Model Adminstators Only/1_Spatial Attributes_Input Data/Polygon Shapes.csv" data_column="Y">
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="Fish Attributes">
+ <variables>
+ <csv_columns label="Oxygen Adaptation" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Oxygen Adaptation.csv" data_column="Low Oxygen Adapted">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Outside Pop Estimate" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Outside population.csv" data_column="Outside Pop">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Dependant on&#10;dry season holes" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Dependent on dry season holes - Copy.csv" data_column="Deep Hole Dependence">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Travel&#10;Speed" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Travel speed.csv" data_column="Travel Speed">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Eats offshore" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Eats offshore.csv" data_column="Floodplain Feeder Proportion">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Height in water collumn" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Height in water column.csv" data_column="Water Column">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Upstream Spawing&#10;Habitat" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Upstream Spawning Habitat.csv" data_column="Guess">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Habitat CC" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Habityat Carrying Capacity.csv" data_column="Carrying Capacity_Mid">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="A mortality&#10;rt" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Adult mortality.csv" data_column="Adult Mortality Rate">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Dispersal Timing" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Dispersal timing.csv" data_column="Travel Speed">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Fecundity rt" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Fecundity rate.csv" data_column="Fecundity">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Aging rate" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Aging rate.csv" data_column="Maturity Rate">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ <csv_columns label="Mortality rt" filename="../../../Data Input/5_Fish Production_Input Data/Fish Attributes_Mortality rate.csv" data_column="Mortality Rate">
+ <value index="1" val="Funct Group ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="Pressure">
+  <variables>
+  <csv_columns label="Gear type efficiency" filename="../../../Data Input/5_Fish Production_Input Data/Fish Pressure_Gear Efficiencies.csv" data_column="Gear Capture Efficiency">
+  <value index="1" val="Functional Group ID"/>
+  <value index="2" val="Gear ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ <submodel label="Diet">
+  <variables>
+  <csv_columns label="needs" filename="../../../Data Input/5_Fish Production_Input Data/Fish Diet_Needs.csv" data_column="Food Source Relevance">
+  <value index="1" val="Functional Group ID"/>
+  <value index="2" val="Food Source ID"/>
+  </csv_columns>
+  <csv_columns label="Throphic efficiency" filename="../../../Data Input/5_Fish Production_Input Data/Fish Diet_Trophic Efficience.csv" data_column="Trophic Efficiency">
+  <value index="1" val="Functional Group ID"/>
+  <value index="2" val="Food Source ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Weather station">
+ <variables>
+ </variables>
+ <submodels>
+ <submodel label="Jday value">
+  <variables>
+  <csv_columns label="Rain STDev" filename="../../../Data Input/Model Adminstators Only/2_Hydrology_Input Data/Rain Predictors.csv" data_column="Standard Deviation Precip">
+  <value index="1" val="Weather Station ID"/>
+  <value index="2" val="Jday"/>
+  </csv_columns>
+  <csv_columns label="Rain Mean" filename="../../../Data Input/Model Adminstators Only/2_Hydrology_Input Data/Rain Predictors.csv" data_column="Mean Precip">
+  <value index="1" val="Weather Station ID"/>
+  <value index="2" val="Jday"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Catchments">
+ <variables>
+ <csv_columns label="Population" filename="../../../Data Input/1_Spatial Attributes_Input Data/Catchment_Population.csv" data_column="Landscan Pop 2000">
+ </csv_columns>
+ <csv_columns label="Area" filename="../../../Data Input/1_Spatial Attributes_Input Data/Catchment_Area.csv" data_column="Area km2">
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="Hydrology">
+  <variables>
+  <multi_value label="Elevation">
+    <value index="1" value="72.5"/>
+    <value index="2" value="2"/>
+    <value index="3" value="95"/>
+    <value index="4" value="2"/>
+    <value index="5" value="0"/>
+    <value index="6" value="97.5"/>
+    <value index="7" value="2"/>
+    <value index="8" value="0"/>
+    <value index="9" value="97.5"/>
+    <value index="10" value="2"/>
+    <value index="11" value="0"/>
+    <value index="12" value="97.5"/>
+    <value index="13" value="2"/>
+    <value index="14" value="0"/>
+    <value index="15" value="95"/>
+    <value index="16" value="2"/>
+    <value index="17" value="0"/>
+    <value index="18" value="80"/>
+    <value index="19" value="2"/>
+    <value index="20" value="0"/>
+    <value index="21" value="95"/>
+    <value index="22" value="2"/>
+    <value index="23" value="95"/>
+    <value index="24" value="2"/>
+    <value index="25" value="0"/>
+    <value index="26" value="15"/>
+    <value index="27" value="2"/>
+    <value index="28" value="0"/>
+    <value index="29" value="-4"/>
+    <value index="30" value="-10"/>
+  </multi_value>
+  </variables>
+  <submodels>
+  <submodel label="Hypso Curve">
+   <variables>
+   <csv_columns label="Ebin WS" filename="../../../Data Input/2_Hydrology_Input Data/Hyspo Curve_Ebin WS.csv" data_column="Proportion">
+   <value index="1" val="Polygon ID"/>
+   <value index="2" val="Elevation Bin ID"/>
+   </csv_columns>
+   <csv_columns label="Cumm Bins" filename="../../../Data Input/2_Hydrology_Input Data/Hyspo Curve_Cumm Bins.csv" data_column="Percent Flooded">
+   <value index="1" val="Polygon ID"/>
+   <value index="2" val="Elevation Bin ID"/>
+   </csv_columns>
+   <csv_columns label="water level" filename="../../../Data Input/2_Hydrology_Input Data/Hypso Curve_Water Level.csv" data_column="Elevation Bin (cm)">
+   <value index="1" val="Polygon ID"/>
+   <value index="2" val="Elevation Bin ID"/>
+   </csv_columns>
+   </variables>
+   <submodels>
+   </submodels>
+  </submodel>
+  </submodels>
+ </submodel>
+ <submodel label="LandCover">
+  <variables>
+  </variables>
+  <submodels>
+  <submodel label="LandUse">
+   <variables>
+   <csv_columns label="Land Use Ratio" filename="../../../Data Input/6_People_Input Data/Land Use Ratio.csv" data_column="Landuse Ratio">
+   <value index="1" val="Polygon ID"/>
+   <value index="2" val="Landcover ID"/>
+   <value index="3" val="Economic Sector ID"/>
+   </csv_columns>
+   </variables>
+   <submodels>
+   </submodels>
+  </submodel>
+  </submodels>
+ </submodel>
+ <submodel label="Fishin regulations">
+  <variables>
+  <csv_columns label="Compliance" filename="../../../Data Input/5_Fish Production_Input Data/Fishing Regulations_Compliance.csv" data_column="Compliance">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Gear ID"/>
+  </csv_columns>
+  <csv_columns label="Gear type distribution" filename="../../../Data Input/5_Fish Production_Input Data/Fishing Regulations_Gear type distribution.csv" data_column="Distribution">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Gear ID"/>
+  </csv_columns>
+  <csv_columns label="Regulated Use" filename="../../../Data Input/5_Fish Production_Input Data/Fishing Regulations_Regulated Use.csv" data_column="Regulated Use">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Gear ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ <submodel label="Fish">
+  <variables>
+  <csv_columns label="Adults" filename="../../../Data Input/5_Fish Production_Input Data/Fish_Adults.csv" data_column="Initial Biomass">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Functional Group ID"/>
+  </csv_columns>
+  <csv_columns label="Spawning&#10;Habitat" filename="../../../Data Input/5_Fish Production_Input Data/Fish_Spawning Habitat.csv" data_column="Spawning Habitat">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Functional Group ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ <submodel label="Demographics">
+  <variables>
+  <csv_columns label="Pop sector Ratio" filename="../../../Data Input/6_People_Input Data/Population Sector Ratio.csv" data_column="Guess">
+  <value index="1" val="Polygon ID"/>
+  <value index="2" val="Economic Sector ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="PP distributions for landcovers">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="Demographics coeffs">
+ <variables>
+ <csv_columns label="growth rt by&#10;Economic Prosperity" filename="../../../Data Input/6_People_Input Data/Growth Rate by Economic Sector.csv" data_column="GUESS">
+ <value index="1" val="Economic Sector ID"/>
+ <value index="2" val="Growth Bracket ID"/>
+ </csv_columns>
+ <csv_columns label="Service&#10;Coeffs" filename="../../../Data Input/6_People_Input Data/Eco Service Coefficient.csv" data_column="GUESS">
+ <value index="1" val="Economic Sector ID"/>
+ <value index="2" val="Eco Service ID"/>
+ </csv_columns>
+ <csv_columns label="Labor Coeff" filename="../../../Data Input/6_People_Input Data/Labor Coefficient.csv" data_column="Labor">
+ <value index="1" val="Setor ID"/>
+ </csv_columns>
+ <csv_columns label="Capital Coeff" filename="../../../Data Input/6_People_Input Data/Capital Coefficient.csv" data_column="Capital">
+ <value index="1" val="Setor ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="Waste ">
+  <variables>
+  <csv_columns label="Produced&#10;by unit of capital" filename="../../../Data Input/6_People_Input Data/Waste Produced.csv" data_column="GUESS">
+  <value index="1" val="Economic Sector ID"/>
+  <value index="2" val="Waste ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="LandCover Attributes">
+ <variables>
+ <csv_columns label="NDVI waterlevel" filename="../../../Data Input/3_Landcover Production_Input Data/NDVI Water Level.csv" data_column="Waterlevel (m)">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="NDVI Intercept" filename="../../../Data Input/3_Landcover Production_Input Data/NDVI Intercept.csv" data_column="NDVI Intercept">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="Detrital resp rt" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_Detrital Resp Rate.csv" data_column="Detrital Resp Rate">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="Sedimentation rt" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_Sedimentation rate.csv" data_column="SedimentationRt_Cal">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="Min Elevation" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_Min Elevation.csv" data_column="Min Elevation (m)">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="NDVI D waterlevel" filename="../../../Data Input/3_Landcover Production_Input Data/NDVI D.csv" data_column="NDVI D Waterlevel (m)">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="IC Detritus" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_IC Detritus.csv" data_column="IC Detritus">
+ <value index="1" val=",others:use_last"/>
+ <value index="2" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="SFW conductivity" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_SFW Conductivity.csv" data_column="SF_Conductivity_Cal2">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="Hydro LC Sensitivity" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_Hydro Sensitivity.csv" data_column="Hydro Sensitivity_GUESS">
+ <value index="1" val=",others:use_last"/>
+ <value index="2" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="Max Shading" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_Max Shading.csv" data_column="Max Shading">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="Max Elevation" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_Max Elevation.csv" data_column="Max Elevation (m)">
+ <value index="1" val="Landcover ID"/>
+ </csv_columns>
+ <csv_columns label="IC_DO" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Attributes_IC DO.csv" data_column="IC_DO GUESS">
+ <value index="1" val=",others:use_last"/>
+ <value index="2" val="Landcover ID"/>
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="LandUse">
+  <variables>
+  </variables>
+  <submodels>
+  <submodel label="LandUse Change">
+   <variables>
+   <csv_columns label="Business as usual" filename="../../../Data Input/Model Adminstators Only/6_People_Input Data/Landuse Changes.csv" data_column="Business As Usual">
+   <value index="1" val="Landcover ID"/>
+   <value index="2" val="Landuse from ID"/>
+   <value index="3" val="Landuse to ID"/>
+   </csv_columns>
+   <csv_columns label="Population LU effect" filename="../../../Data Input/Model Adminstators Only/6_People_Input Data/Landuse Changes.csv" data_column="Population Effect">
+   <value index="1" val="Landcover ID"/>
+   <value index="2" val="Landuse from ID"/>
+   <value index="3" val="Landuse to ID"/>
+   </csv_columns>
+   </variables>
+   <submodels>
+   </submodels>
+  </submodel>
+  <submodel label="Demographics">
+   <variables>
+   <csv_columns label="Capital by User" filename="../../../Data Input/6_People_Input Data/Capital Coefficient.csv" data_column="Capital">
+   <value index="1" val="Setor ID"/>
+   </csv_columns>
+   <csv_columns label="Presence" filename="../../../Data Input/Model Adminstators Only/6_People_Input Data/Economic Sector by Landuse.csv" data_column="Presence_guess">
+   <value index="1" val="Landcover ID"/>
+   <value index="2" val="Landuse ID"/>
+   <value index="3" val="Economic Sector ID"/>
+   </csv_columns>
+   </variables>
+   <submodels>
+   </submodels>
+  </submodel>
+  </submodels>
+ </submodel>
+ <submodel label="Landcover">
+  <variables>
+  <csv_columns label="Baseline Changes" filename="../../../Data Input/3_Landcover Production_Input Data/Landcover Baseline Changes.csv" data_column="Hydrochanges_2">
+  <value index="1" val="Landcover to ID"/>
+  <value index="2" val="Landcover from ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ <submodel label="EBIN">
+  <variables>
+  <csv_columns label="EBIN Prob" filename="../../../Data Input/3_Landcover Production_Input Data/EBIN Prob.csv" data_column="LC_Ratio_corrected">
+  <value index="1" val="Landcover ID"/>
+  <value index="2" val="Elevation Bin ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ <submodel label="Primary Producers">
+  <variables>
+  <csv_columns label="T opt" filename="../../../Data Input/Model Adminstators Only/4_Primary Production_Input Data/Primary Production Attributes by Landcover.csv" data_column="Temp Opt">
+  <value index="1" val="Landcover ID"/>
+  <value index="2" val="Primary Producer ID"/>
+  </csv_columns>
+  <csv_columns label="Respiration rt" filename="../../../Data Input/Model Adminstators Only/4_Primary Production_Input Data/Primary Production Attributes by Landcover.csv" data_column="Respiration Rate">
+  <value index="1" val="Landcover ID"/>
+  <value index="2" val="Primary Producer ID"/>
+  </csv_columns>
+  <csv_columns label="T min" filename="../../../Data Input/Model Adminstators Only/4_Primary Production_Input Data/Primary Production Attributes by Landcover.csv" data_column="Temp Min">
+  <value index="1" val="Landcover ID"/>
+  <value index="2" val="Primary Producer ID"/>
+  </csv_columns>
+  <csv_columns label="T max" filename="../../../Data Input/Model Adminstators Only/4_Primary Production_Input Data/Primary Production Attributes by Landcover.csv" data_column="Temp Max">
+  <value index="1" val="Landcover ID"/>
+  <value index="2" val="Primary Producer ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Lake pulse">
+ <variables>
+ </variables>
+ <submodels>
+ <submodel label="Year">
+  <variables>
+  <csv_columns label="Lake Pulse" filename="../../../Data Input/2_Hydrology_Input Data/Lake Pulse.csv" data_column="Kampong Luong WL (Spline Predictor Method)">
+  <value index="1" val="Julian Day ID"/>
+  <value index="2" val="Year_ID"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+<submodel label="Slider Controls">
+ <variables>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+</submodels>
+</submodel>
+</spf>

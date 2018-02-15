@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="spf1.xsl"?>
+<spf simile_version="6.5">
+<submodel label="top">
+<variables>
+</variables>
+<submodels>
+<submodel label="line">
+ <variables>
+ <csv_columns label="Shape" filename="../../1_Spatial Attributes_Input Data/Shape.csv" data_column="Polygon ID">
+ </csv_columns>
+ <csv_columns label="X" filename="../../1_Spatial Attributes_Input Data/X.csv" data_column="X">
+ </csv_columns>
+ <csv_columns label="Y" filename="../../1_Spatial Attributes_Input Data/Y.csv" data_column="Y">
+ </csv_columns>
+ </variables>
+ <submodels>
+ </submodels>
+</submodel>
+<submodel label="Polygon Attributes">
+ <variables>
+ <csv_columns label="Population" filename="Social_Attributes.csv" data_column="TOTPOP">
+ </csv_columns>
+ <csv_columns label="Area" filename="../../1_Spatial Attributes_Input Data/Catchment_Area.csv" data_column="Area km2">
+ </csv_columns>
+ </variables>
+ <submodels>
+ <submodel label="Social Groups">
+  <variables>
+  <csv_columns label="Com Codes" filename="SomCodeModelDistribution.csv" data_column="Ratio_SC">
+  <value index="1" val="Model_ID"/>
+  <value index="2" val="SomCode"/>
+  </csv_columns>
+  </variables>
+  <submodels>
+  </submodels>
+ </submodel>
+ </submodels>
+</submodel>
+</submodels>
+</submodel>
+</spf>

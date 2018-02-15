@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="shf1.xsl"?>
+<shf simile_version="6.5">
+<external x="26" y="26"  w="780" h="580"/>
+<std_tool_layout left_panel_width="270" run_control_height="204"/>
+<notebook>
+  <page caption="Page 1">
+    <panedwindow orient="vertical">
+      <pane>
+         <container type="DataLogger20111205">
+          <![CDATA[<hsf simile_version="6.5" helper_id="::similescript::DataLogger20111205">
+<target_dir mode="absolute">C:/Users/Irit Altman/Dropbox/TonleSap Model/Tonle Sap MIMES Model/Submodels/3_Landcover Production/MIDAS Output Log</target_dir>
+<to_separate_files whether="yes"/>
+<components>
+<component>/Catchments/Permanent Lake</component>
+<component>/Catchments/Gallery Forest</component>
+<component>/Catchments/Transitional Habitat</component>
+<component>/Catchments/Seasonally Flooded Habitat</component>
+<component>/Catchments/Rainfed Habitat</component>
+</components>
+</hsf>
+]]>
+        </container>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Page 2">
+    <panedwindow orient="vertical">
+      <pane>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Page 3">
+    <panedwindow orient="vertical">
+      <pane>
+      </pane>
+    </panedwindow>
+  </page>
+  <page caption="Page 4">
+    <panedwindow orient="vertical">
+      <pane>
+      </pane>
+    </panedwindow>
+  </page>
+</notebook>
+</shf>
